@@ -1,0 +1,11 @@
+{
+  "mode": "paper",
+  "tick": 96,
+  "cash": "1.86654683",
+  "positions": {
+    "BTC-USDC": "0.00151582"
+  },
+  "initial_cash": "100",
+  "anchor": "99.35372102",
+  "halted": null
+}

@@ -21,3 +21,11 @@ build/
 coinbase-key.json
 cdp_api_key.json
 *.partial
+
+# Web console (web/)
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+web/.env*.local

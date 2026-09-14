@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "products": [
+      "BTC-USDC"
+    ],
+    "capital": "100",
+    "order_limit": "10",
+    "loss_stop": "20",
+    "fee_reserve": "0.02",
+    "slippage": "0.005",
+    "spread_limit": "0.005",
+    "daily_orders": 24,
+    "interval_seconds": 60,
+    "max_quote_age": 15,
+    "neural_ms": 500,
+    "neural_bin_ms": 10,
+    "pulse_ms": 200,
+    "pulse_current": 20,
+    "reward_deadband": "0.01",
+    "decoder_threshold_hz": 2,
+    "paper_fee": "0.006",
+    "learning": true
+  },
+  "dataset": {
+    "release": "MaleCNS v1.0",
+    "neurons": 166700,
+    "directed_edges": 25582938,
+    "arrays_verified": true
+  },
+  "vision": {
+    "retina_total": 3335,
+    "retina_mapped": 3335,
+    "r8_mapped": 811,
+    "retina_model": "R1-R6 luminance-only; column inferred from contacts onto annotated L1/L2/L3."
+  },
+  "mode": "paper",
+  "feed": "synthetic-fixture",
+  "decoder": "DNp20 mean R-L: buy/sell; DNpe017 spike gate; otherwise hold. Engineered fixed mapping.",
+  "learning_validated": false,
+  "pain_receptors_modeled": false,
+  "timing": "Each observation advances configured neural_ms regardless of wall-market time; no claim of real-time fly physiology.",
+  "source_sha256": {
+    "stonkfly/cli.py": "fixture",
+    "stonkfly/neural/kernel.cpp": "fixture"
+  }
+}

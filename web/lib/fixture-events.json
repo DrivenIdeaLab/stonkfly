@@ -1,0 +1,6913 @@
+[
+ {
+  "tick": 1,
+  "wall_time": 1766000000.0,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64320.49",
+   "ask": "64349.04",
+   "timestamp": 1766000000.0,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "100.00000000",
+  "pnl_delta_usdc": "0E-8",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.084,
+   "right_hz": 3.165,
+   "difference_hz": 0.081,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "94470",
+     "75842",
+     "67799",
+     "21245",
+     "52549",
+     "37631"
+    ],
+    "right": [
+     "67363",
+     "66168",
+     "93768",
+     "68310",
+     "65623",
+     "82433"
+    ],
+    "gate": [
+     "35774",
+     "74295",
+     "62456",
+     "17902"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.808,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 10,
+   "KC_spikes": 11,
+   "total_spikes": 72077,
+   "spike_sha256": "dcb464b241c8af9f7a6ae1dc8405e8b7bedb965f82617c0cbbe4fdee7dd7ad56",
+   "input_sha256": "da827907d696c3baf651619170e62020c576f9ed9391019396539e5d0b9eb0dc",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 0.995742,
+    "minimum_efficacy": 0.992733,
+    "sha256": "989972ab9fd8ce627e009f038271462e2921dcea26b9ba0ec21e87e42788050b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 2,
+  "wall_time": 1766000006.808,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.43",
+   "ask": "64356.10",
+   "timestamp": 1766000006.808,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "100.00000000",
+  "pnl_delta_usdc": "0E-8",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.68,
+   "right_hz": 4.377,
+   "difference_hz": 1.697,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "73661",
+     "69557",
+     "15379",
+     "97379",
+     "27559",
+     "13494"
+    ],
+    "right": [
+     "24386",
+     "28938",
+     "14513",
+     "65513",
+     "76140",
+     "20946"
+    ],
+    "gate": [
+     "75351",
+     "62576",
+     "42350",
+     "57294"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.391,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 9,
+   "KC_spikes": 12,
+   "total_spikes": 60961,
+   "spike_sha256": "aa5713948a681894100844f900099d3c63ba8a85d94245cfed839084811d72e2",
+   "input_sha256": "956cd421abf51c9acff61d9b4a8a227306fb8a083a653a4a8d9b1f1535987933",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 1,
+    "mean_efficacy": 1.001715,
+    "minimum_efficacy": 0.989379,
+    "sha256": "76abf73d9df157f03a8c8b2f484224ff79816ee5a14ab8372d4923eb7949b850",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 3,
+  "wall_time": 1766000014.1990001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.33",
+   "ask": "64350.20",
+   "timestamp": 1766000014.1990001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93679134",
+  "pnl_delta_usdc": "0E-8",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.286,
+   "right_hz": 8.065,
+   "difference_hz": 4.779,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "88018",
+     "74890",
+     "18175",
+     "37170",
+     "41015",
+     "18738"
+    ],
+    "right": [
+     "34615",
+     "14980",
+     "65848",
+     "21904",
+     "17920",
+     "43049"
+    ],
+    "gate": [
+     "35473",
+     "97448",
+     "92263",
+     "21532"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.044,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 10,
+   "KC_spikes": 15,
+   "total_spikes": 73001,
+   "spike_sha256": "5ceb71846652f9a9f60025a00498f1dcbf49deb7bd96a538abed8bbc0992e5d0",
+   "input_sha256": "6c1a1c7f246368d781af66409982fe8cd1bab6f3fb6c3ddfb1760c369a64273c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.001888,
+    "minimum_efficacy": 0.970726,
+    "sha256": "8627542e908a372ec4e1475303d7e501ea6144bcda7b8d6730ba6e5894e845d8",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015159",
+   "quote": "9.75484682",
+   "fee": "0.05852908"
+  }
+ },
+ {
+  "tick": 4,
+  "wall_time": 1766000021.243,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.29",
+   "ask": "64358.24",
+   "timestamp": 1766000021.243,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93557255",
+  "pnl_delta_usdc": "-0.00121878",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.253,
+   "right_hz": 7.469,
+   "difference_hz": 6.216,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "21783",
+     "61165",
+     "44623",
+     "50950",
+     "65393",
+     "26662"
+    ],
+    "right": [
+     "79503",
+     "64830",
+     "78716",
+     "19092",
+     "44757",
+     "15321"
+    ],
+    "gate": [
+     "92369",
+     "87741",
+     "49941",
+     "78646"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.914,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 5,
+   "KC_spikes": 14,
+   "total_spikes": 59697,
+   "spike_sha256": "79a3605ec64e2c6d1271db83e22077245bd68afc769ab560fc9160dfcc9c9eb5",
+   "input_sha256": "b7c58dfe7e0611dba6deadfcde0518aa908c483880471a2d7deeeddf3807270f",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.002992,
+    "minimum_efficacy": 0.990519,
+    "sha256": "82e45339a6d334bdb317bbdf6198127f63493f0cc2c168bd5b01be676d0296cb",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 5,
+  "wall_time": 1766000028.157,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.97",
+   "ask": "64346.56",
+   "timestamp": 1766000028.157,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93734312",
+  "pnl_delta_usdc": "0.00177057",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 0.96,
+   "right_hz": 7.96,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "68624",
+     "18324",
+     "31797",
+     "48992",
+     "59995",
+     "57500"
+    ],
+    "right": [
+     "35451",
+     "98560",
+     "89316",
+     "89536",
+     "40538",
+     "40692"
+    ],
+    "gate": [
+     "56240",
+     "85559",
+     "88094",
+     "39730"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.387,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 7,
+   "KC_spikes": 14,
+   "total_spikes": 68966,
+   "spike_sha256": "f1c71bb1af01b0eee089feb55387a70d8883c494f5ee5bee8daa200b8ecf9fe8",
+   "input_sha256": "5c95f0e0b92f94221b9d1e0f9f88ec78650eca032056263bba40a1ef680d251b",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.003762,
+    "minimum_efficacy": 0.978321,
+    "sha256": "d59eaeca920a8850f0416ad81d7653dc7df2912490a2f6e985536d0aa15e227b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 6,
+  "wall_time": 1766000034.5440001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64307.77",
+   "ask": "64361.76",
+   "timestamp": 1766000034.5440001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93503896",
+  "pnl_delta_usdc": "-0.00230417",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.35,
+   "right_hz": 9.559,
+   "difference_hz": 6.209,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "54236",
+     "89100",
+     "73705",
+     "19960",
+     "47927",
+     "19099"
+    ],
+    "right": [
+     "68239",
+     "50840",
+     "43635",
+     "60769",
+     "78906",
+     "40263"
+    ],
+    "gate": [
+     "80537",
+     "28840",
+     "30931",
+     "56148"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.075,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 7,
+   "KC_spikes": 15,
+   "total_spikes": 60174,
+   "spike_sha256": "bae47c9e695de574bb8eef8fb32f00ec6fa59b1e81be1bf1cb02ff1a8b3ad3c6",
+   "input_sha256": "f6d765eab6a955509045841882e0c59881db43c1538e5c7d4e7b692df39c2860",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.003847,
+    "minimum_efficacy": 0.991466,
+    "sha256": "cbd029364c1eb9b9aacd8faf8be528ca2ddf00c4a99e1032b1790d0162bdf0c3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 7,
+  "wall_time": 1766000041.6190002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64318.78",
+   "ask": "64350.75",
+   "timestamp": 1766000041.6190002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93670796",
+  "pnl_delta_usdc": "0.00166901",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.597,
+   "right_hz": 8.597,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "29720",
+     "63754",
+     "46450",
+     "11712",
+     "67943",
+     "99943"
+    ],
+    "right": [
+     "59303",
+     "61780",
+     "29256",
+     "78295",
+     "46338",
+     "29295"
+    ],
+    "gate": [
+     "27177",
+     "11500",
+     "13781",
+     "38974"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.36,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 2,
+   "KC_spikes": 12,
+   "total_spikes": 69843,
+   "spike_sha256": "e667b5d0604706363a560957c0d53f425094a026293635a12aae8222d3e9bd29",
+   "input_sha256": "879dbdbbab9e0bd85d8ac4bfae9f9b38adcffef62dcd3303a8f9fcb7ac049e2d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.000478,
+    "minimum_efficacy": 0.970562,
+    "sha256": "89f2136ca3827dd13bf5a1dc3a3b438a53efef01b6faf2af321669ec3765126a",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 8,
+  "wall_time": 1766000048.979,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64316.76",
+   "ask": "64352.77",
+   "timestamp": 1766000048.979,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93640175",
+  "pnl_delta_usdc": "-0.00030621",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.691,
+   "right_hz": 9.691,
+   "difference_hz": 7.0,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "35835",
+     "91926",
+     "99214",
+     "68943",
+     "77833",
+     "99484"
+    ],
+    "right": [
+     "35753",
+     "67147",
+     "80994",
+     "76659",
+     "93379",
+     "72391"
+    ],
+    "gate": [
+     "29101",
+     "24867",
+     "94008",
+     "16848"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.15,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 7,
+   "KC_spikes": 13,
+   "total_spikes": 70706,
+   "spike_sha256": "c03e656e8a4eeb3bece3c81e8e0eb4e056e44123deec5df10b9d3179c48ac616",
+   "input_sha256": "890d0a2b66a54b71018eec166a46c540acac31f2f12d578d664e5b3b23e54801",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 0,
+    "mean_efficacy": 1.002427,
+    "minimum_efficacy": 0.989687,
+    "sha256": "c5b70d0d957e2183c271576a6dcd8e3ccf41b5bcfa57dd36970d220a5905dfb5",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 9,
+  "wall_time": 1766000055.1290002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.55",
+   "ask": "64346.98",
+   "timestamp": 1766000055.1290002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93727946",
+  "pnl_delta_usdc": "0.00087771",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.638,
+   "right_hz": 9.638,
+   "difference_hz": 7.0,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "37737",
+     "73761",
+     "51996",
+     "35863",
+     "37384",
+     "26997"
+    ],
+    "right": [
+     "45055",
+     "85501",
+     "56610",
+     "67587",
+     "95521",
+     "18916"
+    ],
+    "gate": [
+     "56288",
+     "63676",
+     "79822",
+     "94171"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.404,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 10,
+   "KC_spikes": 16,
+   "total_spikes": 70927,
+   "spike_sha256": "f8dd8da6095f03d257ee58038f36ec971b38de4a49aa180f7b8f0ef3b746ed5c",
+   "input_sha256": "0f2231cb4aaae0d2c3cc579ce317fa5293f8be80dffd1a99d2a7826afc88ecf4",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 2,
+    "mean_efficacy": 1.000811,
+    "minimum_efficacy": 0.983495,
+    "sha256": "40601914fc4d949c5883016d50ccfa7f3e55b668f5a45ca27a3a63bd605a9908",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 10,
+  "wall_time": 1766000061.5330002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.96",
+   "ask": "64353.57",
+   "timestamp": 1766000061.5330002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93628048",
+  "pnl_delta_usdc": "-0.00099898",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.656,
+   "right_hz": 8.656,
+   "difference_hz": 7.0,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "79572",
+     "30083",
+     "99806",
+     "94237",
+     "11951",
+     "26150"
+    ],
+    "right": [
+     "24741",
+     "42278",
+     "24035",
+     "75475",
+     "39012",
+     "81585"
+    ],
+    "gate": [
+     "83733",
+     "36241",
+     "75922",
+     "17469"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.215,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 9,
+   "KC_spikes": 16,
+   "total_spikes": 65349,
+   "spike_sha256": "d6bdc3754590512ffd72c37cc58eb373d0008dd6610f28a2783b5b15318c0eb3",
+   "input_sha256": "ed306fefe4be6378216f583744be0c49128d3afb54f7f9b89e2a33d1de56ebc1",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 3,
+    "mean_efficacy": 0.995982,
+    "minimum_efficacy": 0.972876,
+    "sha256": "5d49d50ece0cf335c01763aea6e78cdf5b70a5676bc7d38604c89e5cb53a8934",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 11,
+  "wall_time": 1766000067.7480001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.58",
+   "ask": "64360.95",
+   "timestamp": 1766000067.7480001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.93516174",
+  "pnl_delta_usdc": "-0.00111873",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.708,
+   "right_hz": 9.708,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "25774",
+     "16477",
+     "70712",
+     "25385",
+     "50828",
+     "26902"
+    ],
+    "right": [
+     "55376",
+     "15986",
+     "23339",
+     "82590",
+     "71617",
+     "13902"
+    ],
+    "gate": [
+     "25671",
+     "88636",
+     "80680",
+     "58856"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.289,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 1,
+   "KC_spikes": 11,
+   "total_spikes": 73783,
+   "spike_sha256": "442c3cd698d0115536baf2b400442fe0077320a9c95aa47fda3acc644d6d1ee2",
+   "input_sha256": "fe63a8baf2c70d00c631f013a7c3f861a33a3f226e0d245887d970c932b21ab9",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 4,
+    "mean_efficacy": 1.00084,
+    "minimum_efficacy": 0.974282,
+    "sha256": "4c1876f3f936e52d7bc5aa3922a4b5de3af4186481916c26b23221821b9ea1bb",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 12,
+  "wall_time": 1766000075.0370002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.59",
+   "ask": "64349.94",
+   "timestamp": 1766000075.0370002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87370115",
+  "pnl_delta_usdc": "0.00166901",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.817,
+   "right_hz": 8.817,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "57265",
+     "15661",
+     "84658",
+     "51822",
+     "14530",
+     "62452"
+    ],
+    "right": [
+     "75987",
+     "24825",
+     "84416",
+     "12205",
+     "55346",
+     "96764"
+    ],
+    "gate": [
+     "31304",
+     "96679",
+     "50151",
+     "85057"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.581,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 6,
+   "KC_spikes": 13,
+   "total_spikes": 72064,
+   "spike_sha256": "e9813c179423d87a5c3d48dab93c444f3e3e6d1cd2a3b2a774fb787a7228fb1c",
+   "input_sha256": "3f9980bc8a93f1447b9a4654c4fc114062bccf55d5ff9820d2ea2c6bfc4594e1",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 3,
+    "mean_efficacy": 0.994533,
+    "minimum_efficacy": 0.970992,
+    "sha256": "6d3b3c5b2d3c58a2bd48b1ca7af6d7b0692c1a7cc07dc1914a8a33cd09eeb620",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015159",
+   "quote": "9.75480740",
+   "fee": "0.05852884"
+  }
+ },
+ {
+  "tick": 13,
+  "wall_time": 1766000081.6180003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64323.11",
+   "ask": "64346.42",
+   "timestamp": 1766000081.6180003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87476834",
+  "pnl_delta_usdc": "0.00106719",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.756,
+   "right_hz": 8.756,
+   "difference_hz": 7.0,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "92319",
+     "39034",
+     "95381",
+     "83207",
+     "28358",
+     "18598"
+    ],
+    "right": [
+     "27656",
+     "71800",
+     "33855",
+     "85163",
+     "74657",
+     "16217"
+    ],
+    "gate": [
+     "48234",
+     "81230",
+     "33056",
+     "14407"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.899,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 5,
+   "KC_spikes": 14,
+   "total_spikes": 60473,
+   "spike_sha256": "856a253df53e539c0fb9181668afc3b4af81220805e5e8ef38bb0b11003811a1",
+   "input_sha256": "0c38031e66ba83bfc34622714c643b217f730060f3bc40678172a22c43b9655c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 4,
+    "mean_efficacy": 0.999455,
+    "minimum_efficacy": 0.991741,
+    "sha256": "885f072ae3a7676993db3214021b95a971a08988ea383b97ecb480692c8c011f",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 14,
+  "wall_time": 1766000088.5170002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.97",
+   "ask": "64353.56",
+   "timestamp": 1766000088.5170002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87260364",
+  "pnl_delta_usdc": "-0.00216471",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.559,
+   "right_hz": 8.574,
+   "difference_hz": 6.015,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "67269",
+     "45907",
+     "91802",
+     "54217",
+     "70819",
+     "74025"
+    ],
+    "right": [
+     "79678",
+     "48212",
+     "31583",
+     "61110",
+     "81755",
+     "47920"
+    ],
+    "gate": [
+     "13631",
+     "81940",
+     "90584",
+     "40368"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.427,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 6,
+   "KC_spikes": 12,
+   "total_spikes": 65047,
+   "spike_sha256": "4edfd3f2c3ac3be2fdd3749ff95b7f045a0bfb95134919b1b1c9f601672f1ca2",
+   "input_sha256": "88be7f3a412b1a30b154d3086ed9b0407f5f4e9994015d14a2710dd070ff3a99",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 5,
+    "mean_efficacy": 0.995179,
+    "minimum_efficacy": 0.987612,
+    "sha256": "55ee462530fb9f901e5f52495e101a295b1a95e90e0c7596f3f4afb1ecd5659e",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 15,
+  "wall_time": 1766000095.9440002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.06",
+   "ask": "64358.47",
+   "timestamp": 1766000095.9440002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87111502",
+  "pnl_delta_usdc": "-0.00148861",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.755,
+   "right_hz": 8.517,
+   "difference_hz": 5.762,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "28511",
+     "93524",
+     "69951",
+     "72725",
+     "11410",
+     "69589"
+    ],
+    "right": [
+     "53301",
+     "33009",
+     "90575",
+     "22605",
+     "66989",
+     "72210"
+    ],
+    "gate": [
+     "38321",
+     "79864",
+     "55880",
+     "41427"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.218,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 3,
+   "KC_spikes": 12,
+   "total_spikes": 66467,
+   "spike_sha256": "b02e383ba9103c0da5407a6bba87908f196cdac3f4ad561574303bc981be8dfe",
+   "input_sha256": "f649eec5656d29b28a528d189e197af341e15b035baed864b5f7daa4c78fede6",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 6,
+    "mean_efficacy": 1.002108,
+    "minimum_efficacy": 0.993675,
+    "sha256": "4be9edf1f6b827c544e69ecb78b5f6311ea7fb0549f099d648847f3d5f3093ce",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 16,
+  "wall_time": 1766000103.1620002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64314.23",
+   "ask": "64355.30",
+   "timestamp": 1766000103.1620002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87207610",
+  "pnl_delta_usdc": "0.00096108",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.306,
+   "right_hz": 8.603,
+   "difference_hz": 6.297,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "81063",
+     "65950",
+     "58302",
+     "42139",
+     "78244",
+     "35194"
+    ],
+    "right": [
+     "51764",
+     "65810",
+     "16969",
+     "56992",
+     "63305",
+     "31056"
+    ],
+    "gate": [
+     "89866",
+     "83480",
+     "22755",
+     "59340"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.199,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 1,
+   "KC_spikes": 11,
+   "total_spikes": 72993,
+   "spike_sha256": "33eb3627e71e55dec2d095d443287697a3a4658bc47df7c6184a46ef0f5c4f27",
+   "input_sha256": "093f3cb8ffc5e089228c5b5ac3629c139cca46bb717b0d3b90d9a596dd5a624c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 6,
+    "mean_efficacy": 0.997322,
+    "minimum_efficacy": 0.986064,
+    "sha256": "05c5713a33ce696960147d6fd191b54554f8a74f3ee3374323011d161d908b84",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 17,
+  "wall_time": 1766000109.361,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.35",
+   "ask": "64356.18",
+   "timestamp": 1766000109.361,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87180931",
+  "pnl_delta_usdc": "-0.00026680",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.991,
+   "right_hz": 7.801,
+   "difference_hz": 5.81,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "58196",
+     "78265",
+     "86568",
+     "85413",
+     "48798",
+     "80691"
+    ],
+    "right": [
+     "12119",
+     "88964",
+     "59376",
+     "46582",
+     "12330",
+     "70936"
+    ],
+    "gate": [
+     "91188",
+     "43385",
+     "88866",
+     "29431"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.269,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 3,
+   "KC_spikes": 12,
+   "total_spikes": 64669,
+   "spike_sha256": "c6ddc6ffcf50643bf9241ed7809e527c90834be10e011d7597718279961bc838",
+   "input_sha256": "00f1377d3127ea72a7e5c94807edc6980099394eb491fbb45fb5c579d938a912",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 5,
+    "mean_efficacy": 1.000642,
+    "minimum_efficacy": 0.984279,
+    "sha256": "7018fb2d3375a549f84649007f0b7c806efc54c53eabf6da6a063194f984b972",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 18,
+  "wall_time": 1766000116.63,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.77",
+   "ask": "64347.76",
+   "timestamp": 1766000116.63,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87436208",
+  "pnl_delta_usdc": "0.00255278",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.131,
+   "right_hz": 7.41,
+   "difference_hz": 4.279,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "56252",
+     "91316",
+     "60337",
+     "99107",
+     "12344",
+     "56457"
+    ],
+    "right": [
+     "14261",
+     "23019",
+     "58002",
+     "54270",
+     "28467",
+     "41008"
+    ],
+    "gate": [
+     "25068",
+     "64973",
+     "68944",
+     "78189"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.584,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 0,
+   "KC_spikes": 14,
+   "total_spikes": 64374,
+   "spike_sha256": "3640d0c7844305e200098f91acc26c154d2efeb5fd0701f4dc424dee45222a0c",
+   "input_sha256": "abb10a07437bd0e6eb93806c571621707a9c1242b2f832b90d04092865058b27",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 6,
+    "mean_efficacy": 1.001038,
+    "minimum_efficacy": 0.990958,
+    "sha256": "042034cb97bdf1c1014e6ffc616bedabdb7d9d7d63a310de3eb0b09cb5702b15",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 19,
+  "wall_time": 1766000123.2140002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.33",
+   "ask": "64350.20",
+   "timestamp": 1766000123.2140002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87362232",
+  "pnl_delta_usdc": "-0.00073976",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.325,
+   "right_hz": 3.684,
+   "difference_hz": 1.359,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "17736",
+     "20465",
+     "12984",
+     "99040",
+     "81952",
+     "71540"
+    ],
+    "right": [
+     "28558",
+     "86346",
+     "27261",
+     "70344",
+     "44521",
+     "29289"
+    ],
+    "gate": [
+     "28367",
+     "95961",
+     "42939",
+     "90442"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.64,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 0,
+   "KC_spikes": 11,
+   "total_spikes": 64108,
+   "spike_sha256": "d1162b3076371a8c424e7c67d2f3c05a5cbde08549df768561154938077379d5",
+   "input_sha256": "f06ffb0a29f170570d6f2ecdef88e3013444516d555c64ad8df2280169603f66",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 6,
+    "mean_efficacy": 1.001754,
+    "minimum_efficacy": 0.984339,
+    "sha256": "3ab8f9901b56d5867d652b317c4fa425e3eeb2e1753a363a493142fa6ad26a0b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 20,
+  "wall_time": 1766000129.8540003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.16",
+   "ask": "64356.37",
+   "timestamp": 1766000129.8540003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.87175170",
+  "pnl_delta_usdc": "-0.00187062",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.108,
+   "right_hz": 5.906,
+   "difference_hz": 3.798,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "75734",
+     "35986",
+     "16963",
+     "65250",
+     "97497",
+     "79323"
+    ],
+    "right": [
+     "63811",
+     "38957",
+     "37199",
+     "44856",
+     "95677",
+     "85074"
+    ],
+    "gate": [
+     "17660",
+     "40796",
+     "35045",
+     "20370"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.826,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 7,
+   "KC_spikes": 16,
+   "total_spikes": 72146,
+   "spike_sha256": "d20d3ac532d9cacbb877b4ce8d8ebde4604a85faf7f19afb5f5665df72a10e6f",
+   "input_sha256": "6a35650f067d9ed0d44d60b6a250e975960133cc337e373f186bd93cd26f1964",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.994307,
+    "minimum_efficacy": 0.987228,
+    "sha256": "e1a3d9ee620957985924f94a1af3cc761b6e3873d1f035a2f3cd80d01e435c9a",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 21,
+  "wall_time": 1766000136.6800003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.95",
+   "ask": "64358.58",
+   "timestamp": 1766000136.6800003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80533341",
+  "pnl_delta_usdc": "-0.00067003",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.646,
+   "right_hz": 5.499,
+   "difference_hz": 3.853,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "43182",
+     "52203",
+     "76834",
+     "43009",
+     "20303",
+     "28808"
+    ],
+    "right": [
+     "76243",
+     "32153",
+     "41141",
+     "89417",
+     "12800",
+     "33499"
+    ],
+    "gate": [
+     "49390",
+     "74647",
+     "49220",
+     "52415"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.531,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 8,
+   "KC_spikes": 13,
+   "total_spikes": 71692,
+   "spike_sha256": "3fa54e9420a275e74494baf77e3dbcb2b10998f8a6a9fef9f11df0047f1f8fb8",
+   "input_sha256": "30fbee9d1c2339a22662b2a6a68eefe0dfb799a8b12667e7575c69af773e26ce",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 1.002408,
+    "minimum_efficacy": 0.977273,
+    "sha256": "554ce6cee076e5982e163e851356d62271129ff179b0fae2e033303e0d961d42",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015157",
+   "quote": "9.75482997",
+   "fee": "0.05852898"
+  }
+ },
+ {
+  "tick": 22,
+  "wall_time": 1766000143.2110002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64312.35",
+   "ask": "64357.18",
+   "timestamp": 1766000143.2110002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80597006",
+  "pnl_delta_usdc": "0.00063665",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.395,
+   "right_hz": 5.481,
+   "difference_hz": 4.086,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "74609",
+     "91299",
+     "66275",
+     "41805",
+     "63311",
+     "18123"
+    ],
+    "right": [
+     "95960",
+     "70424",
+     "16626",
+     "79761",
+     "63594",
+     "80088"
+    ],
+    "gate": [
+     "58253",
+     "91331",
+     "64202",
+     "92882"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.917,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 10,
+   "KC_spikes": 13,
+   "total_spikes": 65272,
+   "spike_sha256": "672959eab1643de19dda7edf4c9c93afc82da3bacb5ba5821331693f218db36c",
+   "input_sha256": "ac655875758e1687255b15e56e70d5b3bc9b37ecaa5a7c3e335473a36c1a1f43",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.998493,
+    "minimum_efficacy": 0.990241,
+    "sha256": "3c96c0582cb04e0984f846ab1859265b48568b448e131a9262ec468254162c0b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 23,
+  "wall_time": 1766000150.1280003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.76",
+   "ask": "64347.77",
+   "timestamp": 1766000150.1280003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.81024926",
+  "pnl_delta_usdc": "0.00427920",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.097,
+   "right_hz": 3.977,
+   "difference_hz": 2.88,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "31845",
+     "56438",
+     "67185",
+     "41654",
+     "90093",
+     "72367"
+    ],
+    "right": [
+     "53121",
+     "57959",
+     "93704",
+     "35679",
+     "95402",
+     "17000"
+    ],
+    "gate": [
+     "50225",
+     "11155",
+     "74092",
+     "83964"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.367,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 2,
+   "KC_spikes": 14,
+   "total_spikes": 62615,
+   "spike_sha256": "8025444230273090d40499751aff61a7bc3f0543fb5b12d1813030463a46c588",
+   "input_sha256": "bdcbae76b888128f6ca94fe5378ca23024cf5b075c8e6b7738ad632fd8259230",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.994326,
+    "minimum_efficacy": 0.982035,
+    "sha256": "6e3e3d44094f6b2c9f52c28518f40cde08fcf7c399bac82daea9c1f7bde746c3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 24,
+  "wall_time": 1766000157.4950004,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.77",
+   "ask": "64358.76",
+   "timestamp": 1766000157.4950004,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80525156",
+  "pnl_delta_usdc": "-0.00499770",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.822,
+   "right_hz": 5.244,
+   "difference_hz": 2.422,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "12298",
+     "65249",
+     "40272",
+     "99555",
+     "41370",
+     "29718"
+    ],
+    "right": [
+     "16566",
+     "22139",
+     "42651",
+     "59316",
+     "49457",
+     "36920"
+    ],
+    "gate": [
+     "78666",
+     "28615",
+     "61873",
+     "57037"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.166,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 9,
+   "KC_spikes": 15,
+   "total_spikes": 66975,
+   "spike_sha256": "5313998ab85098ab8a352e02e1e6be227d38a45e246f246a34d099a259f50ea6",
+   "input_sha256": "8a7dd74b19be7d45a9146835cec2a65c4baf597162232f1003e92bd1a373269d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.999894,
+    "minimum_efficacy": 0.983218,
+    "sha256": "d5347e77bbce1b506ae236ac6dccadae6b80829d5d01398c024feb70a6151019",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 25,
+  "wall_time": 1766000163.6610003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.26",
+   "ask": "64359.27",
+   "timestamp": 1766000163.6610003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80501964",
+  "pnl_delta_usdc": "-0.00023192",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 4.215,
+   "right_hz": 4.927,
+   "difference_hz": 0.712,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "77751",
+     "39520",
+     "60809",
+     "17539",
+     "54843",
+     "96141"
+    ],
+    "right": [
+     "65465",
+     "55452",
+     "84032",
+     "30862",
+     "40604",
+     "64299"
+    ],
+    "gate": [
+     "27527",
+     "93648",
+     "84145",
+     "11497"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.869,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 9,
+   "KC_spikes": 15,
+   "total_spikes": 72481,
+   "spike_sha256": "4b03f11ba37ccde6582adbff4b96686448cebc1b036a145cb40fd16f22dede32",
+   "input_sha256": "55bc73e40e4a0af4543a724b50417a39b831c8f055c97988181f1422c7f31e20",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 6,
+    "mean_efficacy": 1.002218,
+    "minimum_efficacy": 0.977984,
+    "sha256": "9d6de9c7ac0389afdbdf57b6b25545df5f6db6bca413c57fcea075fb4044c0aa",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 26,
+  "wall_time": 1766000170.5300002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.87",
+   "ask": "64360.66",
+   "timestamp": 1766000170.5300002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80438753",
+  "pnl_delta_usdc": "-0.00063210",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.405,
+   "right_hz": 5.81,
+   "difference_hz": 2.405,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "22898",
+     "50288",
+     "97063",
+     "16966",
+     "12624",
+     "31819"
+    ],
+    "right": [
+     "31678",
+     "27512",
+     "89355",
+     "57731",
+     "21676",
+     "24909"
+    ],
+    "gate": [
+     "78323",
+     "38519",
+     "33288",
+     "14855"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.531,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 0,
+   "KC_spikes": 13,
+   "total_spikes": 68497,
+   "spike_sha256": "1a52376efdc33d84dd305acb4df2f2bf9cca77b4f92216869471762850292ad5",
+   "input_sha256": "ae4802fb3632a0c4e977c5cf52c776a9d915aff67cdcacbc7cd09033f0473987",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.998203,
+    "minimum_efficacy": 0.973705,
+    "sha256": "0efda7ed9221ece9cb9da0a5f421eb9382ea85137d021409f356e4b1472686ed",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 27,
+  "wall_time": 1766000177.061,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64312.91",
+   "ask": "64356.62",
+   "timestamp": 1766000177.061,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80622472",
+  "pnl_delta_usdc": "0.00183719",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.385,
+   "right_hz": 3.598,
+   "difference_hz": 0.213,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "15430",
+     "93976",
+     "26186",
+     "42619",
+     "69246",
+     "69768"
+    ],
+    "right": [
+     "42704",
+     "99626",
+     "27573",
+     "32440",
+     "87770",
+     "21197"
+    ],
+    "gate": [
+     "70936",
+     "16173",
+     "23571",
+     "23946"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.214,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 9,
+   "KC_spikes": 14,
+   "total_spikes": 67032,
+   "spike_sha256": "0b3aad0be4e8daa34dc0e60cc0c731e800bd42b9de0e42e6a933d5d7659aeb1c",
+   "input_sha256": "e8b1fac959fff939e0ba34c086413b7fb2a6d97d3827e49b28f2aa7878556bce",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 7,
+    "mean_efficacy": 0.997468,
+    "minimum_efficacy": 0.983263,
+    "sha256": "e071295779d94dfa5ae9679a63946659fc2a0ea9ec0a4744bb2db650b2caef1d",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 28,
+  "wall_time": 1766000183.275,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64312.51",
+   "ask": "64357.02",
+   "timestamp": 1766000183.275,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80604282",
+  "pnl_delta_usdc": "-0.00018190",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.003,
+   "right_hz": 6.842,
+   "difference_hz": 3.839,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "47318",
+     "47121",
+     "26379",
+     "61875",
+     "62118",
+     "72247"
+    ],
+    "right": [
+     "32825",
+     "68366",
+     "72119",
+     "99949",
+     "70678",
+     "17734"
+    ],
+    "gate": [
+     "24577",
+     "29775",
+     "97724",
+     "34688"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.566,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 9,
+   "KC_spikes": 12,
+   "total_spikes": 69510,
+   "spike_sha256": "27ff7636d52e5868d65f11073284511e5b32b4ef2cfafed4af63092bc4eddc6b",
+   "input_sha256": "9d98428f3656c499c5e4633030aec86130e5b79db80befeb8393dabb9bdc8c3a",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 9,
+    "mean_efficacy": 0.996584,
+    "minimum_efficacy": 0.969184,
+    "sha256": "5064585d80c6c8016f1dbd9a27c4f33fa609b1bb9b26cd4f340c561dedc297f7",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 29,
+  "wall_time": 1766000189.841,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.05",
+   "ask": "64361.48",
+   "timestamp": 1766000189.841,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80401464",
+  "pnl_delta_usdc": "-0.00202818",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.622,
+   "right_hz": 3.178,
+   "difference_hz": 1.556,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "76056",
+     "57348",
+     "14653",
+     "63045",
+     "73848",
+     "97777"
+    ],
+    "right": [
+     "71655",
+     "88816",
+     "37103",
+     "43592",
+     "54965",
+     "39578"
+    ],
+    "gate": [
+     "75365",
+     "17680",
+     "73048",
+     "55373"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.065,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 0,
+   "KC_spikes": 16,
+   "total_spikes": 66408,
+   "spike_sha256": "ba9f54658317e71bb3d4ca1af29922e04971abe6d788d51f9b2fd0099a367731",
+   "input_sha256": "82d267da4314dcda2e414fd4c541ecede3617290a88e360c6e7bc2d0fe66a345",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 8,
+    "mean_efficacy": 0.997409,
+    "minimum_efficacy": 0.991851,
+    "sha256": "e57628aad38e764b8fc4aaf7eeded85122a0b088e6fb6e9b4fd749e89fd083ff",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 30,
+  "wall_time": 1766000196.9060001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.86",
+   "ask": "64349.67",
+   "timestamp": 1766000196.9060001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80938524",
+  "pnl_delta_usdc": "0.00537060",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.883,
+   "right_hz": 2.353,
+   "difference_hz": 0.47,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "52618",
+     "76538",
+     "26633",
+     "56003",
+     "29934",
+     "99794"
+    ],
+    "right": [
+     "72525",
+     "72780",
+     "73078",
+     "49719",
+     "90576",
+     "87475"
+    ],
+    "gate": [
+     "24590",
+     "91942",
+     "65188",
+     "83459"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.951,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 7,
+   "KC_spikes": 12,
+   "total_spikes": 61187,
+   "spike_sha256": "d015a6c5a26ea775af441c509ea6ac2d81034b23821420f0ddbcb399110c83f0",
+   "input_sha256": "724601e87954fe4922fd6df139e4142845091d91c51fdf5add213249d2ab893a",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 10,
+    "mean_efficacy": 0.994932,
+    "minimum_efficacy": 0.985162,
+    "sha256": "35e96ecad97360cb391e3a14713c8d0a6a992afeac0046ad4777d0e3f6fa8c2e",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 31,
+  "wall_time": 1766000203.857,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64318.37",
+   "ask": "64351.16",
+   "timestamp": 1766000203.857,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.80870766",
+  "pnl_delta_usdc": "-0.00067758",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.981,
+   "right_hz": 1.874,
+   "difference_hz": -0.107,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "41981",
+     "72654",
+     "45845",
+     "77081",
+     "62927",
+     "37130"
+    ],
+    "right": [
+     "75099",
+     "14688",
+     "68190",
+     "69481",
+     "21838",
+     "27324"
+    ],
+    "gate": [
+     "12031",
+     "44473",
+     "73646",
+     "80017"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.38,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 4,
+   "KC_spikes": 16,
+   "total_spikes": 63581,
+   "spike_sha256": "9acda4b6e634a3586f9a59facee94871c3961a5cd608085098a3991770f0adaf",
+   "input_sha256": "52e92cd54d75962305164575ef9f7b0acd4878c1845a90ebd61d368cd49941aa",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 10,
+    "mean_efficacy": 1.00211,
+    "minimum_efficacy": 0.969661,
+    "sha256": "3f87efc80333a88bc625164f3a70c405c44b4fdc2097a5fe9b3d9557db8f5c00",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 32,
+  "wall_time": 1766000211.2370002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.45",
+   "ask": "64354.08",
+   "timestamp": 1766000211.2370002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74299551",
+  "pnl_delta_usdc": "-0.00132787",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.823,
+   "right_hz": 4.653,
+   "difference_hz": 2.83,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "96106",
+     "39554",
+     "49724",
+     "97424",
+     "55289",
+     "79033"
+    ],
+    "right": [
+     "38777",
+     "19265",
+     "99147",
+     "66110",
+     "99722",
+     "32096"
+    ],
+    "gate": [
+     "80990",
+     "92987",
+     "18334",
+     "44613"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.784,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 0,
+   "KC_spikes": 13,
+   "total_spikes": 69862,
+   "spike_sha256": "8b334f39b4b19a4cc3fe7745bad89e9f17bd2bea043f912881404d458b393b7f",
+   "input_sha256": "15a12d1958d49370f14e265721ee1fd4af57733a6846c8ef4a75e6d9539413fb",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 9,
+    "mean_efficacy": 1.000188,
+    "minimum_efficacy": 0.991294,
+    "sha256": "d218623ce8a17cda470418485931cb4bfef3fed4a01d755e249b9ceeee4ac31d",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015158",
+   "quote": "9.75479145",
+   "fee": "0.05852875"
+  }
+ },
+ {
+  "tick": 33,
+  "wall_time": 1766000218.0210001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.30",
+   "ask": "64360.23",
+   "timestamp": 1766000218.0210001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.73926658",
+  "pnl_delta_usdc": "-0.00372893",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.014,
+   "right_hz": 2.823,
+   "difference_hz": 1.809,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "74878",
+     "13463",
+     "75592",
+     "16566",
+     "75089",
+     "99289"
+    ],
+    "right": [
+     "64663",
+     "22266",
+     "52282",
+     "88513",
+     "66468",
+     "15789"
+    ],
+    "gate": [
+     "24129",
+     "61205",
+     "93952",
+     "35959"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.44,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 2,
+   "KC_spikes": 12,
+   "total_spikes": 71693,
+   "spike_sha256": "4195d4e40bfa550eb92ff7d946037795fe2bfe5fc6c73503b4de20ef80804618",
+   "input_sha256": "38fc7c76d128771b0954f323ea0188fc486a52d6d0185bd9325c6b241ab6bc20",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 9,
+    "mean_efficacy": 0.996411,
+    "minimum_efficacy": 0.991406,
+    "sha256": "49be9edbbdc212778fccf33afef4c9bf5cd088903ddba14a003ac0276c0fec6e",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 34,
+  "wall_time": 1766000225.4610002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.39",
+   "ask": "64361.14",
+   "timestamp": 1766000225.4610002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.73871482",
+  "pnl_delta_usdc": "-0.00055176",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.999,
+   "right_hz": 6.857,
+   "difference_hz": 2.858,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "37549",
+     "21139",
+     "39353",
+     "96400",
+     "29641",
+     "61840"
+    ],
+    "right": [
+     "21498",
+     "27155",
+     "51526",
+     "71686",
+     "36984",
+     "19591"
+    ],
+    "gate": [
+     "97844",
+     "12454",
+     "71634",
+     "16227"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.174,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 1,
+   "KC_spikes": 15,
+   "total_spikes": 67749,
+   "spike_sha256": "d19ee3d366d6f93bf0eaa4f3128abac0c3dfe2ef6617cf6be8f8282d379371ba",
+   "input_sha256": "899ff1a4e5c9868e9d9f9366c3a20781b454dc2b45bde6a7513a0ac6341873be",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 10,
+    "mean_efficacy": 0.997488,
+    "minimum_efficacy": 0.972634,
+    "sha256": "19cb050d59b5270bf039fa7817c118c110ee21cdd34bc77608af76004ab3f287",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 35,
+  "wall_time": 1766000232.6350002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64318.32",
+   "ask": "64351.21",
+   "timestamp": 1766000232.6350002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74473567",
+  "pnl_delta_usdc": "0.00602086",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 4.157,
+   "right_hz": 7.684,
+   "difference_hz": 3.527,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "32285",
+     "52374",
+     "86002",
+     "30871",
+     "46150",
+     "66115"
+    ],
+    "right": [
+     "39700",
+     "97371",
+     "64045",
+     "91508",
+     "39666",
+     "28925"
+    ],
+    "gate": [
+     "57769",
+     "64944",
+     "70640",
+     "13035"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.544,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 10,
+   "KC_spikes": 16,
+   "total_spikes": 72271,
+   "spike_sha256": "204f4289992c0551bb9fea5ec1957d50dd2b512cd81a9b17374ca6ed256ddbf8",
+   "input_sha256": "8d5d3075752f5948366a1d3863f84116ac07d87da2269d001aa4ac4179cbb996",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 10,
+    "mean_efficacy": 0.996633,
+    "minimum_efficacy": 0.985714,
+    "sha256": "f0a08206adc85dbc01f0ba30812b8a29e648772ca687c1576fdbf160edc3a26b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 36,
+  "wall_time": 1766000240.1790001,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64318.73",
+   "ask": "64350.80",
+   "timestamp": 1766000240.1790001,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74498427",
+  "pnl_delta_usdc": "0.00024860",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.043,
+   "right_hz": 4.416,
+   "difference_hz": 3.373,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "12691",
+     "84721",
+     "39409",
+     "35230",
+     "55706",
+     "95701"
+    ],
+    "right": [
+     "96079",
+     "96887",
+     "87789",
+     "66288",
+     "40765",
+     "28643"
+    ],
+    "gate": [
+     "55232",
+     "81751",
+     "67601",
+     "63265"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.338,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 4,
+   "KC_spikes": 11,
+   "total_spikes": 61438,
+   "spike_sha256": "0f5dd9c8686e82f15ade2513ac4abce999772ecedfc26c8cf169ad45596e104d",
+   "input_sha256": "e5513ae9d6b30b7c40be45d6b133467a3a76712552e1335a60f970d47fb6a681",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 11,
+    "mean_efficacy": 0.997682,
+    "minimum_efficacy": 0.983443,
+    "sha256": "9a4d7ad101ab6b2e9a405ba204ae13130a02ace64550e3edcdfe1b8e1e965c11",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 37,
+  "wall_time": 1766000246.5170002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.46",
+   "ask": "64358.07",
+   "timestamp": 1766000246.5170002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74057625",
+  "pnl_delta_usdc": "-0.00440802",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.363,
+   "right_hz": 6.647,
+   "difference_hz": 5.284,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "44699",
+     "26964",
+     "33495",
+     "34564",
+     "42078",
+     "49412"
+    ],
+    "right": [
+     "99479",
+     "27174",
+     "65276",
+     "96859",
+     "22336",
+     "39650"
+    ],
+    "gate": [
+     "18191",
+     "73360",
+     "16400",
+     "37301"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.591,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 3,
+   "KC_spikes": 14,
+   "total_spikes": 70696,
+   "spike_sha256": "84ec5f58eae9479ccf0e36222661e7fdba61608dee08c7e70a0bcbe736a2a951",
+   "input_sha256": "16fabf501db19ffa711f98fe3a43c12cb68ea2481a23e85030b27ee73cd9c21c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 11,
+    "mean_efficacy": 0.995767,
+    "minimum_efficacy": 0.99009,
+    "sha256": "9cdf911e26e5c9646a10e6a02e6f11a8bd46cf8a3313f0266efe79d83f6a4d6b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 38,
+  "wall_time": 1766000253.1080003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.12",
+   "ask": "64360.41",
+   "timestamp": 1766000253.1080003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.73915744",
+  "pnl_delta_usdc": "-0.00141881",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.757,
+   "right_hz": 9.757,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "72046",
+     "41558",
+     "97246",
+     "26776",
+     "57745",
+     "38995"
+    ],
+    "right": [
+     "22291",
+     "13126",
+     "17185",
+     "72099",
+     "24985",
+     "62683"
+    ],
+    "gate": [
+     "40762",
+     "30884",
+     "68377",
+     "99029"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.556,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 1,
+   "KC_spikes": 12,
+   "total_spikes": 60922,
+   "spike_sha256": "ecd6aa8293e17aa7c9e18ab01ce1777631dbf352d6bd63e5a6a5c1ab696df001",
+   "input_sha256": "2631e291d4389d7adedc267c0a7af0142d4dcd914b686208bae9209c38628f92",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 12,
+    "mean_efficacy": 1.003235,
+    "minimum_efficacy": 0.975058,
+    "sha256": "32c6667679b22ab1e6a4b61799d6682ca02bbe4c7c1f4826cbf0053b885da77a",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 39,
+  "wall_time": 1766000260.6640003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.14",
+   "ask": "64352.39",
+   "timestamp": 1766000260.6640003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74402020",
+  "pnl_delta_usdc": "0.00486277",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.908,
+   "right_hz": 9.908,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "22007",
+     "30405",
+     "73349",
+     "13616",
+     "33582",
+     "75847"
+    ],
+    "right": [
+     "19519",
+     "99651",
+     "80384",
+     "79243",
+     "39179",
+     "51542"
+    ],
+    "gate": [
+     "69055",
+     "30489",
+     "70481",
+     "18486"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.482,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 9,
+   "KC_spikes": 14,
+   "total_spikes": 72407,
+   "spike_sha256": "61e5ee8b735aeedb9ac9e2f1e14709cbe3c663a99e0e9629e6252bf610870da6",
+   "input_sha256": "f4dc05a5694f28044e44ae3b8c79ba478dfc573ec08fa3ba7b3e931cb3adb1fa",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 12,
+    "mean_efficacy": 0.998041,
+    "minimum_efficacy": 0.984222,
+    "sha256": "a11f8fbcf8fba3a73d12f15b92197663dd5bcf2de09e78bea2926da10db869f3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 40,
+  "wall_time": 1766000267.1460004,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.05",
+   "ask": "64352.48",
+   "timestamp": 1766000267.1460004,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74396563",
+  "pnl_delta_usdc": "-0.00005457",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.695,
+   "right_hz": 5.835,
+   "difference_hz": 4.14,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "53862",
+     "12989",
+     "71690",
+     "64873",
+     "21856",
+     "97385"
+    ],
+    "right": [
+     "55960",
+     "43397",
+     "31412",
+     "68578",
+     "76363",
+     "62957"
+    ],
+    "gate": [
+     "12274",
+     "28580",
+     "39638",
+     "25647"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.432,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 10,
+   "KC_spikes": 12,
+   "total_spikes": 71213,
+   "spike_sha256": "8bf5efb40a9fded383e26b8682dca5b57bb8df326caf093c7f944b8d245200f0",
+   "input_sha256": "34bc76a7cc69842cbc768cd9c1895a8d1321928691648afebe0faecb54af0fe4",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 14,
+    "mean_efficacy": 1.002727,
+    "minimum_efficacy": 0.98439,
+    "sha256": "9fc0a9ae5f8bc18f0040a1913bc9df705deace19d53c502b7d938eb8cddb5744",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 41,
+  "wall_time": 1766000273.5780003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.69",
+   "ask": "64346.84",
+   "timestamp": 1766000273.5780003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.74738533",
+  "pnl_delta_usdc": "0.00341970",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.022,
+   "right_hz": 6.86,
+   "difference_hz": 3.838,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "84274",
+     "95055",
+     "81767",
+     "76648",
+     "74468",
+     "59573"
+    ],
+    "right": [
+     "21733",
+     "83746",
+     "84913",
+     "86822",
+     "70264",
+     "96617"
+    ],
+    "gate": [
+     "29977",
+     "56776",
+     "37283",
+     "74706"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.289,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 6,
+   "KC_spikes": 15,
+   "total_spikes": 62391,
+   "spike_sha256": "f1d3d3cc3ca86502022d62c048727739ace1e9c27b861ba1a5a9c9a275ac23af",
+   "input_sha256": "162650624d196d7e69531b2c9ec36255a922f96171e17402b59a80b6055b9107",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 15,
+    "mean_efficacy": 0.994055,
+    "minimum_efficacy": 0.992619,
+    "sha256": "00b4ffef97765402ae7f22d76199cfd12ceb4b10cae77ea5ebf27a9c9be611ce",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 42,
+  "wall_time": 1766000279.8670003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.75",
+   "ask": "64349.78",
+   "timestamp": 1766000279.8670003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.68252178",
+  "pnl_delta_usdc": "-0.00178261",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.618,
+   "right_hz": 7.718,
+   "difference_hz": 5.1,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "89533",
+     "37681",
+     "24689",
+     "87855",
+     "33922",
+     "76692"
+    ],
+    "right": [
+     "23188",
+     "61348",
+     "29349",
+     "84332",
+     "11253",
+     "29173"
+    ],
+    "gate": [
+     "14849",
+     "96635",
+     "17732",
+     "15587"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.046,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 9,
+   "KC_spikes": 13,
+   "total_spikes": 67226,
+   "spike_sha256": "d503076d241042b157f9be1e57415514d1fff0fb7a845292018b0074adf36191",
+   "input_sha256": "ca3adba177834ebee39bbf54eceeb334d5aa2fa0a19f290e098df756fa17aa56",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 16,
+    "mean_efficacy": 1.00188,
+    "minimum_efficacy": 0.983612,
+    "sha256": "ce5828556faafed5caa78e828c67d3a913fc03f911691567860f42335b04aa9a",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015159",
+   "quote": "9.75478315",
+   "fee": "0.05852870"
+  }
+ },
+ {
+  "tick": 43,
+  "wall_time": 1766000286.9130003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.28",
+   "ask": "64359.25",
+   "timestamp": 1766000286.9130003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.67534428",
+  "pnl_delta_usdc": "-0.00717750",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.478,
+   "right_hz": 7.054,
+   "difference_hz": 3.576,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "18272",
+     "41016",
+     "78276",
+     "42555",
+     "31807",
+     "74348"
+    ],
+    "right": [
+     "59729",
+     "53845",
+     "11127",
+     "72533",
+     "20186",
+     "28046"
+    ],
+    "gate": [
+     "54075",
+     "36072",
+     "34316",
+     "37693"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.464,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 8,
+   "KC_spikes": 13,
+   "total_spikes": 69175,
+   "spike_sha256": "a81d0b052cd846c6d7dd376b3f910052d00d62ac5b26a41192dd71d48ff12a99",
+   "input_sha256": "191ec0a599eb4dc08be9df2aedf4e239b8fe5f1da7de759d647e119ca352a840",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 16,
+    "mean_efficacy": 0.99869,
+    "minimum_efficacy": 0.983562,
+    "sha256": "1a4a475504dfa94cfaa780bc3c7181e678b4a0bc0ba64d9aa5109ecd0bf458f3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 44,
+  "wall_time": 1766000294.3770003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.49",
+   "ask": "64354.04",
+   "timestamp": 1766000294.3770003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.67929304",
+  "pnl_delta_usdc": "0.00394876",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.454,
+   "right_hz": 7.026,
+   "difference_hz": 3.572,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "43727",
+     "79521",
+     "59356",
+     "99390",
+     "81932",
+     "30386"
+    ],
+    "right": [
+     "57529",
+     "93315",
+     "77109",
+     "38749",
+     "89076",
+     "56990"
+    ],
+    "gate": [
+     "31097",
+     "58654",
+     "78015",
+     "44422"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.522,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 1,
+   "KC_spikes": 12,
+   "total_spikes": 73306,
+   "spike_sha256": "2e57adc07fc429daadeac9e008d993a52cc4b6cd80e22da8b019ba9bb524561e",
+   "input_sha256": "7980ae91b3e91139530b3f9a03dc051cb68e7ecf0c8376a66907607c628c5d0c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 18,
+    "mean_efficacy": 0.999404,
+    "minimum_efficacy": 0.988688,
+    "sha256": "d194c036f045e4e65fa63a8a06aa8b0afc6e187b3e272809470674421a31ad35",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 45,
+  "wall_time": 1766000301.8990004,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.71",
+   "ask": "64349.82",
+   "timestamp": 1766000301.8990004,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.68249146",
+  "pnl_delta_usdc": "0.00319842",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.825,
+   "right_hz": 9.572,
+   "difference_hz": 6.747,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "79823",
+     "38989",
+     "67726",
+     "36409",
+     "57946",
+     "59993"
+    ],
+    "right": [
+     "99988",
+     "63577",
+     "69723",
+     "85519",
+     "93823",
+     "81278"
+    ],
+    "gate": [
+     "26810",
+     "50698",
+     "92133",
+     "83672"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.504,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 4,
+   "KC_spikes": 16,
+   "total_spikes": 63678,
+   "spike_sha256": "a09707a43aaade374cf4cfe98d9c2b77bc436b7468e24abda10b21d1916331a6",
+   "input_sha256": "8979606599b90f1373d1e1cdb6c46b7bf480d0cf6b07b5694362c6d17b02beec",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 18,
+    "mean_efficacy": 1.001067,
+    "minimum_efficacy": 0.973028,
+    "sha256": "ad9ac61c63ba1d32089df9b968476cf2ee58fd7eee666bd5a83db85268c50116",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 46,
+  "wall_time": 1766000309.4030004,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64318.19",
+   "ask": "64351.34",
+   "timestamp": 1766000309.4030004,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.68133942",
+  "pnl_delta_usdc": "-0.00115204",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.452,
+   "right_hz": 5.772,
+   "difference_hz": 4.32,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "36232",
+     "94330",
+     "74341",
+     "47382",
+     "79989",
+     "63448"
+    ],
+    "right": [
+     "33126",
+     "70438",
+     "62069",
+     "43903",
+     "32773",
+     "29447"
+    ],
+    "gate": [
+     "38458",
+     "34120",
+     "76825",
+     "93412"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.526,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 0,
+   "KC_spikes": 12,
+   "total_spikes": 69281,
+   "spike_sha256": "dcdfabb3c7f19fe00622aab33e6a6ac16c9f5283053c96d598a94dc67b2585e7",
+   "input_sha256": "455ad8d6b242f2ed78b6af49525e91127c2bc3f8e7368546bf61ad5841c65880",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 17,
+    "mean_efficacy": 1.000771,
+    "minimum_efficacy": 0.98666,
+    "sha256": "eec6b64e5b10f34aa9bcfc09a304a76ea672e468e1346e2e8fb376ccd6ebb305",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 47,
+  "wall_time": 1766000316.9290004,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.96",
+   "ask": "64347.57",
+   "timestamp": 1766000316.9290004,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.68419678",
+  "pnl_delta_usdc": "0.00285736",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.762,
+   "right_hz": 6.283,
+   "difference_hz": 3.521,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "70753",
+     "57393",
+     "67795",
+     "16965",
+     "94428",
+     "24401"
+    ],
+    "right": [
+     "78475",
+     "35656",
+     "61877",
+     "24650",
+     "40159",
+     "85482"
+    ],
+    "gate": [
+     "66909",
+     "85058",
+     "98620",
+     "58966"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.399,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 11,
+   "KC_spikes": 12,
+   "total_spikes": 68848,
+   "spike_sha256": "b6b7764a105f999693da3b6c7e5b4b0313157d90b5084be28ed327dcdd90d1b4",
+   "input_sha256": "106cfb15677cd918da990e826aba21c6edea6890c7aac390464e6c5a92a24339",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 18,
+    "mean_efficacy": 1.003574,
+    "minimum_efficacy": 0.992528,
+    "sha256": "02859acc77ddab856eac24aaeebeb7c2ebc0bf320e09ecc28238f75d56b7f121",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 48,
+  "wall_time": 1766000323.3280003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.35",
+   "ask": "64360.18",
+   "timestamp": 1766000323.3280003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.67463941",
+  "pnl_delta_usdc": "-0.00955737",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 4.661,
+   "right_hz": 11.01,
+   "difference_hz": 6.349,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "84164",
+     "58434",
+     "62174",
+     "86915",
+     "49152",
+     "90184"
+    ],
+    "right": [
+     "30377",
+     "98400",
+     "93429",
+     "59562",
+     "26397",
+     "37326"
+    ],
+    "gate": [
+     "71933",
+     "71707",
+     "15367",
+     "33088"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.386,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 6,
+   "KC_spikes": 16,
+   "total_spikes": 59196,
+   "spike_sha256": "0329fb74105dab8504b7f8e36f128a02fb4f04367bf553e8d14cda4d51acb7dd",
+   "input_sha256": "3af09ca36c3818858bfee15d182f175f177948537b2cb1a5ddfca1e3de6c2790",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 17,
+    "mean_efficacy": 0.999607,
+    "minimum_efficacy": 0.97744,
+    "sha256": "6b6e8181b725598056f3051d85eae7f19795b1846f6dd6cf0a8404c198862c83",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 49,
+  "wall_time": 1766000329.7140002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.28",
+   "ask": "64359.25",
+   "timestamp": 1766000329.7140002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.67534428",
+  "pnl_delta_usdc": "0.00070487",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.473,
+   "right_hz": 7.772,
+   "difference_hz": 6.299,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "29613",
+     "72330",
+     "17676",
+     "28039",
+     "51847",
+     "67840"
+    ],
+    "right": [
+     "41238",
+     "90478",
+     "84359",
+     "92921",
+     "32512",
+     "95585"
+    ],
+    "gate": [
+     "45986",
+     "89827",
+     "70610",
+     "49029"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.972,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 11,
+   "KC_spikes": 13,
+   "total_spikes": 70045,
+   "spike_sha256": "b2e266d54260baf03d13d9c0ba8a14d35fe0bead4c07c0625cadd7fdd2907cb6",
+   "input_sha256": "1fad5cded0e379f8eba1ad435647a4d09af21c22dfca4c9553e02ab8fe29e628",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 19,
+    "mean_efficacy": 0.996777,
+    "minimum_efficacy": 0.971741,
+    "sha256": "f8da76e9d8e0524fd0c73409c100f22da69f4faf1af3fb7bc1c1e94bd1148253",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 50,
+  "wall_time": 1766000336.686,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.82",
+   "ask": "64351.71",
+   "timestamp": 1766000336.686,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.68105899",
+  "pnl_delta_usdc": "0.00571472",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.936,
+   "right_hz": 8.462,
+   "difference_hz": 6.526,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "78361",
+     "36772",
+     "94729",
+     "37616",
+     "79521",
+     "40631"
+    ],
+    "right": [
+     "95429",
+     "13440",
+     "98560",
+     "71919",
+     "20630",
+     "16019"
+    ],
+    "gate": [
+     "20079",
+     "32627",
+     "53745",
+     "76075"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.584,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 6,
+   "KC_spikes": 14,
+   "total_spikes": 65007,
+   "spike_sha256": "bee7b9bd276e6447508f46226bfcaf89816015f8818387cda59e94b7493cc939",
+   "input_sha256": "2817ddbfa22d6278476d4fe6a6c7ab78d2aa92720b3918b395deb9f2688d8a9b",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 18,
+    "mean_efficacy": 0.995106,
+    "minimum_efficacy": 0.978728,
+    "sha256": "9392572addae1f7570730c64216994d3691fd6f7371cf38d5bd86c064789a427",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 51,
+  "wall_time": 1766000344.2700002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.33",
+   "ask": "64360.20",
+   "timestamp": 1766000344.2700002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.67462425",
+  "pnl_delta_usdc": "-0.00643474",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.062,
+   "right_hz": 9.062,
+   "difference_hz": 7.0,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "60818",
+     "55136",
+     "85301",
+     "94736",
+     "59917",
+     "39924"
+    ],
+    "right": [
+     "22302",
+     "43696",
+     "71118",
+     "51621",
+     "64095",
+     "14466"
+    ],
+    "gate": [
+     "61614",
+     "95612",
+     "37992",
+     "44542"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.333,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 3,
+   "KC_spikes": 16,
+   "total_spikes": 59626,
+   "spike_sha256": "0039c47340ccab3307de7918dc928910b696b0cd3e46510f22a3708e6fa11829",
+   "input_sha256": "478a19c40fac52087e78a7be4b173d66bbe4052dbdd5e81409b18c49e3bc5cba",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 20,
+    "mean_efficacy": 1.003784,
+    "minimum_efficacy": 0.980809,
+    "sha256": "4a6370227e56192b09d4f1a59e76f43cb8eab62f7d517bf7ca30dd2e415b4295",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 52,
+  "wall_time": 1766000351.6030002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.77",
+   "ask": "64359.76",
+   "timestamp": 1766000351.6030002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.60885070",
+  "pnl_delta_usdc": "0.00033348",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.576,
+   "right_hz": 9.576,
+   "difference_hz": 7.0,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "91281",
+     "52576",
+     "11999",
+     "92393",
+     "17122",
+     "28677"
+    ],
+    "right": [
+     "32529",
+     "38676",
+     "13620",
+     "53292",
+     "71810",
+     "17003"
+    ],
+    "gate": [
+     "19084",
+     "88609",
+     "53443",
+     "63970"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.977,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 8,
+   "KC_spikes": 15,
+   "total_spikes": 65190,
+   "spike_sha256": "150818cdea13bb78c1b9845189efa3c0d05a2ebb0cbc940f480515149a4404ba",
+   "input_sha256": "9fdb34dac71476733a722a89f5250ad7ced853a0054128839617144918822835",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 19,
+    "mean_efficacy": 1.003793,
+    "minimum_efficacy": 0.973386,
+    "sha256": "b634b605f44ecaa98544dcc08b560a0c254edb476faf618208863f653973156b",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015157",
+   "quote": "9.75500882",
+   "fee": "0.05853005"
+  }
+ },
+ {
+  "tick": 53,
+  "wall_time": 1766000358.5800002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.29",
+   "ask": "64350.24",
+   "timestamp": 1766000358.5800002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61750904",
+  "pnl_delta_usdc": "0.00865834",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.056,
+   "right_hz": 8.215,
+   "difference_hz": 6.159,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "73850",
+     "16989",
+     "84656",
+     "44023",
+     "47271",
+     "26481"
+    ],
+    "right": [
+     "88703",
+     "85394",
+     "30505",
+     "26551",
+     "32041",
+     "34624"
+    ],
+    "gate": [
+     "69950",
+     "83646",
+     "26233",
+     "77100"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.287,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 11,
+   "KC_spikes": 11,
+   "total_spikes": 60067,
+   "spike_sha256": "4d751a0dc20e7f1f3b2e03c0eb014e38833dfea5d0253df8cd7b49cda3d2067f",
+   "input_sha256": "b691197f3fec7bd2f751eee04caff4bc06840b020b32197aa90cd5a4c0525e89",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 19,
+    "mean_efficacy": 1.001382,
+    "minimum_efficacy": 0.974746,
+    "sha256": "6116f543c84bfdab5bf40e54ec12a0c3bdfad83982098b68937788da352d00c6",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 54,
+  "wall_time": 1766000364.867,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.89",
+   "ask": "64353.64",
+   "timestamp": 1766000364.867,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61441678",
+  "pnl_delta_usdc": "-0.00309227",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 0.245,
+   "right_hz": 7.245,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "99350",
+     "42657",
+     "41047",
+     "23171",
+     "43003",
+     "82609"
+    ],
+    "right": [
+     "44485",
+     "17707",
+     "87881",
+     "41635",
+     "43629",
+     "89212"
+    ],
+    "gate": [
+     "31345",
+     "60960",
+     "38418",
+     "24575"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.783,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 9,
+   "KC_spikes": 14,
+   "total_spikes": 68371,
+   "spike_sha256": "03ab402c007d7bec0cb8318126b533b6b180c5282f4cf0db4f09c5ba16428327",
+   "input_sha256": "bf0e6b87bfe28d2e83e18b2770195fff96883bb52ce574722c30fadc39cc1075",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 19,
+    "mean_efficacy": 1.001345,
+    "minimum_efficacy": 0.979742,
+    "sha256": "8f43eef2eef0a303d2d1805771c3fa310608e17e12d38354758791cc525fd3fe",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 55,
+  "wall_time": 1766000371.65,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.10",
+   "ask": "64356.43",
+   "timestamp": 1766000371.65,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61187930",
+  "pnl_delta_usdc": "-0.00253748",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.924,
+   "right_hz": 8.4,
+   "difference_hz": 6.476,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "18234",
+     "81707",
+     "64963",
+     "45851",
+     "34213",
+     "20915"
+    ],
+    "right": [
+     "77223",
+     "88386",
+     "62108",
+     "71553",
+     "69124",
+     "60833"
+    ],
+    "gate": [
+     "24638",
+     "40644",
+     "48073",
+     "22272"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.727,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 4,
+   "KC_spikes": 11,
+   "total_spikes": 67749,
+   "spike_sha256": "ac33d0524bda4ca1a75d452099b18516704527e37c40946581d23cbb31f54381",
+   "input_sha256": "7d99ace2d774a567d46f311f17a6bf7cbd733bc98d2981625450cce7162e095c",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 18,
+    "mean_efficacy": 0.994174,
+    "minimum_efficacy": 0.975883,
+    "sha256": "eaee24bc378013ccc19eb976de174745c4196d9dcdf61d94e397beff1dcb4fe5",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 56,
+  "wall_time": 1766000378.377,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.78",
+   "ask": "64357.75",
+   "timestamp": 1766000378.377,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61067877",
+  "pnl_delta_usdc": "-0.00120053",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 0.811,
+   "right_hz": 7.811,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "83671",
+     "71948",
+     "67281",
+     "19465",
+     "38544",
+     "37647"
+    ],
+    "right": [
+     "64014",
+     "38903",
+     "34674",
+     "31177",
+     "87535",
+     "24470"
+    ],
+    "gate": [
+     "42658",
+     "42143",
+     "82660",
+     "81133"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.024,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 2,
+   "KC_spikes": 16,
+   "total_spikes": 67888,
+   "spike_sha256": "f582ccba6a3231b659c1248d1581d6d284dbf731fed9c986c576d7c1dd36f587",
+   "input_sha256": "52a2ba63705a8f06f31af4182fe16d09384cc126f26bae7ba3bef2a0f8b565c7",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 17,
+    "mean_efficacy": 0.999142,
+    "minimum_efficacy": 0.984516,
+    "sha256": "3342cb304f5ab275da7c774cb17eb0b3553982f9c478817990684516be4f2709",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 57,
+  "wall_time": 1766000385.401,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.89",
+   "ask": "64351.64",
+   "timestamp": 1766000385.401,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61623576",
+  "pnl_delta_usdc": "0.00555698",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.014,
+   "right_hz": 7.5,
+   "difference_hz": 6.486,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "85706",
+     "61865",
+     "30930",
+     "58475",
+     "73308",
+     "25570"
+    ],
+    "right": [
+     "58813",
+     "37074",
+     "79439",
+     "27237",
+     "95719",
+     "46704"
+    ],
+    "gate": [
+     "91609",
+     "33584",
+     "18978",
+     "99775"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.73,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 2,
+   "KC_spikes": 12,
+   "total_spikes": 63854,
+   "spike_sha256": "f2fab942839e57f95a036a064a56710fa2f4bf9a19d271883371f2a83c7d767c",
+   "input_sha256": "5fb398d79199fef9be1f8a34f041ba4d25ee30fd433956fa9c71cde3dc5537f0",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 17,
+    "mean_efficacy": 0.998852,
+    "minimum_efficacy": 0.980193,
+    "sha256": "8dcb6bcc1a19509c8496384a4f34456774be78eaa78c1b9525ebb239aa2c2314",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 58,
+  "wall_time": 1766000392.131,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64312.01",
+   "ask": "64357.52",
+   "timestamp": 1766000392.131,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61088796",
+  "pnl_delta_usdc": "-0.00534780",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.061,
+   "right_hz": 6.681,
+   "difference_hz": 5.62,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "73426",
+     "81781",
+     "61151",
+     "66216",
+     "49012",
+     "93122"
+    ],
+    "right": [
+     "82131",
+     "34793",
+     "42841",
+     "75738",
+     "78793",
+     "15327"
+    ],
+    "gate": [
+     "31333",
+     "97833",
+     "77780",
+     "88817"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.436,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 6,
+   "KC_spikes": 14,
+   "total_spikes": 70362,
+   "spike_sha256": "892197ecf87e18fd09fc323e844aae7bc8791e7f34b230d2ee21640c288fcb27",
+   "input_sha256": "e20bb8a4d68d25ff23412be8197b42a090a00953a0c3f4c71584aede8c022135",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 17,
+    "mean_efficacy": 0.997001,
+    "minimum_efficacy": 0.971828,
+    "sha256": "4240d3d68e80978167f16a478846e90e1ff02d890d6b22e213ac8387dc5895e4",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 59,
+  "wall_time": 1766000398.5670002,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.29",
+   "ask": "64361.24",
+   "timestamp": 1766000398.5670002,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.60750465",
+  "pnl_delta_usdc": "-0.00338330",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.402,
+   "right_hz": 4.181,
+   "difference_hz": 2.779,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "96528",
+     "94052",
+     "37889",
+     "97027",
+     "43229",
+     "60242"
+    ],
+    "right": [
+     "64126",
+     "59496",
+     "55700",
+     "91527",
+     "59874",
+     "22344"
+    ],
+    "gate": [
+     "93942",
+     "57441",
+     "71982",
+     "64114"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.33,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 7,
+   "KC_spikes": 16,
+   "total_spikes": 71479,
+   "spike_sha256": "cb04d7abccfb9bb2f3992d28c4345c881ec4e4a8cffaac211fcb91ad8fdc6738",
+   "input_sha256": "8c8af1fe84c3b76478e48a0c07cf0d3cc7369472b0cc0482f72b59b7faf4455d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 19,
+    "mean_efficacy": 1.003652,
+    "minimum_efficacy": 0.986153,
+    "sha256": "f2ffb7ca5a57efff6bfc5aff370e0a003b0e5fdbe9045468f9bb76257b94d1f3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 60,
+  "wall_time": 1766000405.897,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.54",
+   "ask": "64357.99",
+   "timestamp": 1766000405.897,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.61046050",
+  "pnl_delta_usdc": "0.00295584",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.573,
+   "right_hz": 2.817,
+   "difference_hz": -0.756,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "57674",
+     "35988",
+     "60865",
+     "29983",
+     "85593",
+     "53652"
+    ],
+    "right": [
+     "43941",
+     "46641",
+     "76459",
+     "68601",
+     "75855",
+     "16206"
+    ],
+    "gate": [
+     "18796",
+     "28971",
+     "99420",
+     "19910"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.585,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 9,
+   "KC_spikes": 16,
+   "total_spikes": 73759,
+   "spike_sha256": "31c518233382dc89c6347681ebb68de43c6446a2e5c57fc1c03623d773bdf737",
+   "input_sha256": "ff375c33e690d74601b86c1c3782e8facb85fd41edfbe9bb8a93f0bb8f382ee0",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 20,
+    "mean_efficacy": 1.000526,
+    "minimum_efficacy": 0.982911,
+    "sha256": "851e70d329b61c32385f2e076ec4830516e4de7aa5215c92d71dc122cbe1bd99",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 61,
+  "wall_time": 1766000412.482,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.79",
+   "ask": "64360.74",
+   "timestamp": 1766000412.482,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54155877",
+  "pnl_delta_usdc": "-0.00250110",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.106,
+   "right_hz": 5.317,
+   "difference_hz": 2.211,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "96124",
+     "18041",
+     "60450",
+     "82790",
+     "20972",
+     "66170"
+    ],
+    "right": [
+     "59660",
+     "76362",
+     "99641",
+     "37054",
+     "99963",
+     "42586"
+    ],
+    "gate": [
+     "98421",
+     "19821",
+     "17161",
+     "86010"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.912,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 3,
+   "KC_spikes": 13,
+   "total_spikes": 65443,
+   "spike_sha256": "35ff9bd2361afadf2a6c14202899702e4b74bb05cfbef387b600d85a122f9d25",
+   "input_sha256": "bfcf2b0b48d2016682803aae29001e725a57900b1885753c31b1ef6a74f77345",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 21,
+    "mean_efficacy": 1.003927,
+    "minimum_efficacy": 0.994575,
+    "sha256": "eefcbcc8aa3c4298574025ae1bbd730500b49e3f6e7111f4af65bce1a8e6989f",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015156",
+   "quote": "9.75451375",
+   "fee": "0.05852708"
+  }
+ },
+ {
+  "tick": 62,
+  "wall_time": 1766000419.394,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.40",
+   "ask": "64358.13",
+   "timestamp": 1766000419.394,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54432811",
+  "pnl_delta_usdc": "0.00276934",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.679,
+   "right_hz": 5.473,
+   "difference_hz": 1.794,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "75616",
+     "33493",
+     "11425",
+     "50698",
+     "50364",
+     "74929"
+    ],
+    "right": [
+     "72648",
+     "79748",
+     "62733",
+     "49387",
+     "65247",
+     "26336"
+    ],
+    "gate": [
+     "38040",
+     "35743",
+     "15588",
+     "16007"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.574,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 5,
+   "KC_spikes": 11,
+   "total_spikes": 58421,
+   "spike_sha256": "7215c8bc4f13f63d7882fa73833e420f969947b434a6d33e24f837ce5699e052",
+   "input_sha256": "a9d3ef53e8be57484afbc9084445dfc638be6f5fa83b9a373ffe9dcbb289ee39",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 22,
+    "mean_efficacy": 0.998236,
+    "minimum_efficacy": 0.980591,
+    "sha256": "0f9042e824d593579da91d296dd8230876f95ff63b2c2fba6119b4de28a597da",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 63,
+  "wall_time": 1766000426.968,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.34",
+   "ask": "64348.19",
+   "timestamp": 1766000426.968,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.55487495",
+  "pnl_delta_usdc": "0.01054684",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.09,
+   "right_hz": 5.737,
+   "difference_hz": 2.647,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "66829",
+     "11691",
+     "21504",
+     "52673",
+     "76479",
+     "73561"
+    ],
+    "right": [
+     "28883",
+     "68047",
+     "22683",
+     "32241",
+     "94052",
+     "81416"
+    ],
+    "gate": [
+     "61815",
+     "38679",
+     "81238",
+     "44992"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.175,
+   "stimulus": "reward",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 20,
+   "aversive_spikes": 7,
+   "KC_spikes": 11,
+   "total_spikes": 64534,
+   "spike_sha256": "6ec050e7f0014bca4ba719db01e3ddc735c6a6b8e076ca6f2f192aa87da1a22b",
+   "input_sha256": "9dae371548ea858529f7da992b7489369bb11ee28939fe0c6bc46482d8e868ba",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 21,
+    "mean_efficacy": 0.999749,
+    "minimum_efficacy": 0.987543,
+    "sha256": "a7badeb5f49978354975ec45eb37943c9589e6b367d79988f562986f0399aef8",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 64,
+  "wall_time": 1766000433.143,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64309.97",
+   "ask": "64359.56",
+   "timestamp": 1766000433.143,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54281081",
+  "pnl_delta_usdc": "-0.01206414",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.811,
+   "right_hz": 8.141,
+   "difference_hz": 5.33,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "73748",
+     "52409",
+     "38722",
+     "12889",
+     "32169",
+     "44487"
+    ],
+    "right": [
+     "79032",
+     "94153",
+     "98804",
+     "99568",
+     "53995",
+     "65932"
+    ],
+    "gate": [
+     "41701",
+     "80112",
+     "17323",
+     "31324"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.418,
+   "stimulus": "aversive",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 64,
+   "KC_spikes": 11,
+   "total_spikes": 71129,
+   "spike_sha256": "e2d25801d3609398145aae7508e9beb9efa20a3190c1fd2a43731ea82a497fdc",
+   "input_sha256": "095c35bbada9cdfc5d5bb86b982b91475cad0931bc18a7f02aff71ff617c1903",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 21,
+    "mean_efficacy": 0.995862,
+    "minimum_efficacy": 0.983659,
+    "sha256": "dd29dc8c33e50d3c46a2ddcfaa76c460aad64b8008282662428bea63f7189e58",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 65,
+  "wall_time": 1766000440.5609999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.12",
+   "ask": "64354.41",
+   "timestamp": 1766000440.5609999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54827522",
+  "pnl_delta_usdc": "0.00546441",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.441,
+   "right_hz": 9.351,
+   "difference_hz": 5.91,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "48082",
+     "54391",
+     "15457",
+     "52559",
+     "52222",
+     "71318"
+    ],
+    "right": [
+     "14032",
+     "25981",
+     "12066",
+     "69376",
+     "18714",
+     "52687"
+    ],
+    "gate": [
+     "35351",
+     "46167",
+     "67431",
+     "18211"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.427,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 1,
+   "KC_spikes": 15,
+   "total_spikes": 64768,
+   "spike_sha256": "69c49921c60390bb2489e682bb5e9112205b8cde427aef0e4cece30c6ff2402c",
+   "input_sha256": "f9246d95b63be7c592377fb9e1236db157d526b9020c2f888999b58e9baabc25",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 23,
+    "mean_efficacy": 0.995513,
+    "minimum_efficacy": 0.970837,
+    "sha256": "5e3b539f2d542cd71e185539a429e494c43e844f4746b3b05b72715ff5a7eb2a",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 66,
+  "wall_time": 1766000447.988,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64310.54",
+   "ask": "64358.99",
+   "timestamp": 1766000447.988,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54341561",
+  "pnl_delta_usdc": "-0.00485961",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.508,
+   "right_hz": 10.508,
+   "difference_hz": 7.0,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "67775",
+     "27598",
+     "35298",
+     "79430",
+     "68721",
+     "11739"
+    ],
+    "right": [
+     "60319",
+     "38438",
+     "99258",
+     "74059",
+     "36007",
+     "77041"
+    ],
+    "gate": [
+     "74288",
+     "79950",
+     "26563",
+     "54458"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.707,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 10,
+   "KC_spikes": 16,
+   "total_spikes": 71355,
+   "spike_sha256": "0df3d24252ae7abdb766636ee8821749c93e617391165658b4f5f4fce735e533",
+   "input_sha256": "cb07e90e9f644d12cddeb9507e7e86c85b7102d7a27efde2949186141577b399",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 23,
+    "mean_efficacy": 0.998657,
+    "minimum_efficacy": 0.988101,
+    "sha256": "02781d5ac750b86838875bc424a8d3d8792b869924c423ac0d49897ede17b654",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 67,
+  "wall_time": 1766000454.695,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64320.92",
+   "ask": "64348.61",
+   "timestamp": 1766000454.695,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.55442931",
+  "pnl_delta_usdc": "0.01101370",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.183,
+   "right_hz": 8.039,
+   "difference_hz": 6.856,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "54672",
+     "30901",
+     "34445",
+     "97496",
+     "25097",
+     "37033"
+    ],
+    "right": [
+     "34670",
+     "74265",
+     "40091",
+     "61309",
+     "31119",
+     "95534"
+    ],
+    "gate": [
+     "13445",
+     "65156",
+     "32150",
+     "98183"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.299,
+   "stimulus": "reward",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 14,
+   "aversive_spikes": 4,
+   "KC_spikes": 12,
+   "total_spikes": 67984,
+   "spike_sha256": "cc346a5e402b143b3c034ceefee688d2449c3cffc9ae3075531dcb7671382678",
+   "input_sha256": "87bb3e5a000f862c10e82a3acba72595feb48efd4d29ec69f43d2099bd040707",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 25,
+    "mean_efficacy": 1.003374,
+    "minimum_efficacy": 0.975952,
+    "sha256": "ac2fdba29978acc7cdfd6c4ab5ef8ae0e29022ba284d30e21658017567ff6fbf",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 68,
+  "wall_time": 1766000460.994,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.23",
+   "ask": "64352.30",
+   "timestamp": 1766000460.994,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.55051404",
+  "pnl_delta_usdc": "-0.00391527",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.257,
+   "right_hz": 10.257,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "85525",
+     "71888",
+     "59648",
+     "44353",
+     "94218",
+     "54118"
+    ],
+    "right": [
+     "65889",
+     "57172",
+     "40079",
+     "41694",
+     "79792",
+     "73008"
+    ],
+    "gate": [
+     "99995",
+     "84919",
+     "48144",
+     "51269"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.489,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 2,
+   "KC_spikes": 11,
+   "total_spikes": 70419,
+   "spike_sha256": "977cd1d69eb3fef6e0143109d2d8b7ef29a572c14b926a5772ac9ce9eef408b2",
+   "input_sha256": "235635854d7fdc3a16594446ef58ffeda6456d18a78c8b0d8a2ab029f54cedc5",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 27,
+    "mean_efficacy": 0.998139,
+    "minimum_efficacy": 0.974545,
+    "sha256": "40c8945403812b8359b5184873e343e64c786fcd2f5f7450d26565011c7e7b72",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 69,
+  "wall_time": 1766000467.483,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.23",
+   "ask": "64358.30",
+   "timestamp": 1766000467.483,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.54414774",
+  "pnl_delta_usdc": "-0.00636630",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 4.038,
+   "right_hz": 11.038,
+   "difference_hz": 7.0,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "91142",
+     "23520",
+     "86668",
+     "58368",
+     "50503",
+     "74467"
+    ],
+    "right": [
+     "85030",
+     "97666",
+     "61648",
+     "17504",
+     "30432",
+     "31872"
+    ],
+    "gate": [
+     "61508",
+     "83311",
+     "43424",
+     "73385"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.52,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 2,
+   "KC_spikes": 16,
+   "total_spikes": 68474,
+   "spike_sha256": "9f42f344fa76a92cbebc7573208d8a6793dc78fa86aa6c995139033be5ee9907",
+   "input_sha256": "4ac69a21359dd3fb7be34a4462730f784e223856de90a3f9eea25c9f1483eef6",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 27,
+    "mean_efficacy": 0.996035,
+    "minimum_efficacy": 0.995617,
+    "sha256": "1b0f1c5b16a7c86e1528e1b7288eb69772929283745ca4986c71812b9d1947d3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 70,
+  "wall_time": 1766000474.003,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64317.91",
+   "ask": "64351.62",
+   "timestamp": 1766000474.003,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.55123555",
+  "pnl_delta_usdc": "0.00708781",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.428,
+   "right_hz": 7.116,
+   "difference_hz": 3.688,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "42400",
+     "54949",
+     "36752",
+     "95809",
+     "93756",
+     "70494"
+    ],
+    "right": [
+     "94863",
+     "55497",
+     "88242",
+     "90934",
+     "45528",
+     "52697"
+    ],
+    "gate": [
+     "75418",
+     "32933",
+     "93550",
+     "92716"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.787,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 8,
+   "KC_spikes": 15,
+   "total_spikes": 64694,
+   "spike_sha256": "0e92409cd0011e207c09929901b3daad8900da6d00cdcf2a304f8150b9266f0c",
+   "input_sha256": "aa2f24d4bc9782d37d5d4632fe527045c700a349d5d66bbbe04eb11dc9458cd3",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 29,
+    "mean_efficacy": 0.994702,
+    "minimum_efficacy": 0.980089,
+    "sha256": "e2c7fbd6933174ed004328813bebb39ad8bb0eb4a4f95f2263dbacde228778bf",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 71,
+  "wall_time": 1766000480.79,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.15",
+   "ask": "64354.38",
+   "timestamp": 1766000480.79,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48383155",
+  "pnl_delta_usdc": "-0.00292850",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.428,
+   "right_hz": 8.063,
+   "difference_hz": 5.635,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "40633",
+     "34198",
+     "79349",
+     "59925",
+     "14016",
+     "74953"
+    ],
+    "right": [
+     "27036",
+     "23360",
+     "79435",
+     "20050",
+     "57961",
+     "67346"
+    ],
+    "gate": [
+     "75567",
+     "58888",
+     "55953",
+     "48226"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.847,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 2,
+   "KC_spikes": 11,
+   "total_spikes": 62327,
+   "spike_sha256": "cba617ea3ad2b2aee66fc13bc3a211902b4c5f461d3763f126816d036b771a44",
+   "input_sha256": "f9254b25230c358200475bee13dd2143a3069e3a6a3d58453b1966936643f5ba",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 29,
+    "mean_efficacy": 0.998444,
+    "minimum_efficacy": 0.983513,
+    "sha256": "0cad247d99289bd58d51d5fcb80f279ca8915b3e6569392800bf32e28f917e88",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015158",
+   "quote": "9.75483692",
+   "fee": "0.05852902"
+  }
+ },
+ {
+  "tick": 72,
+  "wall_time": 1766000487.6369998,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.79",
+   "ask": "64346.74",
+   "timestamp": 1766000487.6369998,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.49309604",
+  "pnl_delta_usdc": "0.00926449",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.607,
+   "right_hz": 8.163,
+   "difference_hz": 6.556,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "55994",
+     "74957",
+     "25244",
+     "65565",
+     "85990",
+     "35562"
+    ],
+    "right": [
+     "36645",
+     "52888",
+     "38041",
+     "18668",
+     "94821",
+     "26068"
+    ],
+    "gate": [
+     "11400",
+     "89348",
+     "24136",
+     "54902"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.812,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 9,
+   "KC_spikes": 16,
+   "total_spikes": 61655,
+   "spike_sha256": "df4aced72d55314b965f2cdd04ef38b5c88142d0247bb7271e8fd11994dfd7fb",
+   "input_sha256": "973c83938ef61d930b5f4fcd9c64cc83121307aa0984ecb7dca540c47549c1a9",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 29,
+    "mean_efficacy": 0.996343,
+    "minimum_efficacy": 0.976558,
+    "sha256": "19a2276e39ac11e75632d526dbd9e769d787ec81185f9013fbbc4fd39e7b3321",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 73,
+  "wall_time": 1766000494.449,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.94",
+   "ask": "64355.59",
+   "timestamp": 1766000494.449,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48236426",
+  "pnl_delta_usdc": "-0.01073178",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.479,
+   "right_hz": 10.279,
+   "difference_hz": 6.8,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "94706",
+     "59875",
+     "60647",
+     "13949",
+     "96576",
+     "84106"
+    ],
+    "right": [
+     "77463",
+     "25153",
+     "20707",
+     "21911",
+     "48418",
+     "18684"
+    ],
+    "gate": [
+     "21308",
+     "69010",
+     "33693",
+     "72676"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.962,
+   "stimulus": "aversive",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 55,
+   "KC_spikes": 14,
+   "total_spikes": 72519,
+   "spike_sha256": "d6a8694b192f92cf8aa28056956b6480e94efbc8da5505d6c95806e219e7ef27",
+   "input_sha256": "2a219fa60cae77f812289e2a6f112e1a9feca507293afdf68bd835ca701e76b0",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 30,
+    "mean_efficacy": 0.999023,
+    "minimum_efficacy": 0.990612,
+    "sha256": "83a77216f68c7c77b1f76b1f77c327e33d1ccde4dc59f6860f687577c25882c2",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 74,
+  "wall_time": 1766000501.4109998,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.91",
+   "ask": "64353.62",
+   "timestamp": 1766000501.4109998,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48475315",
+  "pnl_delta_usdc": "0.00238888",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.011,
+   "right_hz": 2.522,
+   "difference_hz": 1.511,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "63357",
+     "64829",
+     "15735",
+     "95104",
+     "32740",
+     "43239"
+    ],
+    "right": [
+     "69622",
+     "41549",
+     "21543",
+     "30501",
+     "44953",
+     "77584"
+    ],
+    "gate": [
+     "21392",
+     "25887",
+     "20571",
+     "85737"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.952,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 6,
+   "KC_spikes": 16,
+   "total_spikes": 67957,
+   "spike_sha256": "995ece30dba3ff32d81dd55437439aabef8fb29581ca307dafe6eeec2d728433",
+   "input_sha256": "902ba50df38da4c6895c3b8370436ed0797c5a20fa4282dfc4a391a7192ca71d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 30,
+    "mean_efficacy": 0.998363,
+    "minimum_efficacy": 0.993119,
+    "sha256": "7a33da3197946007502f929fe1f372b8d7f4fa0967884149fee753f12da5ddfe",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 75,
+  "wall_time": 1766000508.3629997,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64314.17",
+   "ask": "64355.36",
+   "timestamp": 1766000508.3629997,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48264317",
+  "pnl_delta_usdc": "-0.00210998",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.888,
+   "right_hz": 2.51,
+   "difference_hz": 0.622,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "12430",
+     "19523",
+     "61839",
+     "60624",
+     "90268",
+     "62492"
+    ],
+    "right": [
+     "11413",
+     "75914",
+     "69469",
+     "36703",
+     "26715",
+     "36073"
+    ],
+    "gate": [
+     "44008",
+     "32840",
+     "79713",
+     "60801"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.596,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 5,
+   "KC_spikes": 16,
+   "total_spikes": 70571,
+   "spike_sha256": "fef65e467272abc50999928eaaba3b122b821e5a7780cfd1d0fbf00fe578a658",
+   "input_sha256": "0014264c973277e4dd833e61268b5e37511c11f1efbff0b5d2133f14a7383bfd",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 30,
+    "mean_efficacy": 0.998101,
+    "minimum_efficacy": 0.969303,
+    "sha256": "5427ecbcfa5075142319da01d26daaca5439b4dc165630b8753a21b2072cf949",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 76,
+  "wall_time": 1766000514.9589996,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.55",
+   "ask": "64357.98",
+   "timestamp": 1766000514.9589996,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.47946608",
+  "pnl_delta_usdc": "-0.00317709",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.376,
+   "right_hz": 3.577,
+   "difference_hz": 1.201,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "44822",
+     "51720",
+     "45720",
+     "85195",
+     "92840",
+     "67177"
+    ],
+    "right": [
+     "97853",
+     "50512",
+     "20204",
+     "65862",
+     "40181",
+     "66106"
+    ],
+    "gate": [
+     "35926",
+     "40858",
+     "61679",
+     "99045"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.576,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 11,
+   "KC_spikes": 15,
+   "total_spikes": 61166,
+   "spike_sha256": "85f29f7821d5e65363edba66173955e9d4399f8f1d2f7aab1a6e09bd76e97704",
+   "input_sha256": "83e1da6a592bb11ee208ea6e3c126b6d608851e3ab46111d0af06bb91a42347d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 31,
+    "mean_efficacy": 0.994688,
+    "minimum_efficacy": 0.979107,
+    "sha256": "40deff36fbb9bcf2408bb7398486a2da68ea9a76f461c2d480576d63e99693a2",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 77,
+  "wall_time": 1766000521.5349996,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.80",
+   "ask": "64357.73",
+   "timestamp": 1766000521.5349996,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.47976924",
+  "pnl_delta_usdc": "0.00030316",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 0.0,
+   "right_hz": 3.268,
+   "difference_hz": 3.268,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "84656",
+     "63619",
+     "34778",
+     "75399",
+     "19863",
+     "74752"
+    ],
+    "right": [
+     "57250",
+     "28300",
+     "36116",
+     "15152",
+     "42969",
+     "62029"
+    ],
+    "gate": [
+     "34835",
+     "78277",
+     "13134",
+     "90176"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.171,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 8,
+   "KC_spikes": 14,
+   "total_spikes": 62211,
+   "spike_sha256": "0082babdf2beb9fa24b22fa6da0e7c11260baefdff30b9e1539d892c4401a3f9",
+   "input_sha256": "5aa5097e1ef7dcb4abfcce19e122d583a2e372d20b477ef22f3a404b1f535da2",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 32,
+    "mean_efficacy": 0.994598,
+    "minimum_efficacy": 0.991986,
+    "sha256": "445715914ce4053c45933d66c949568812b4dd5d23e38269f5c5042244378140",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 78,
+  "wall_time": 1766000527.7059996,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64312.83",
+   "ask": "64356.70",
+   "timestamp": 1766000527.7059996,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48101825",
+  "pnl_delta_usdc": "0.00124901",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 2.966,
+   "right_hz": 2.091,
+   "difference_hz": -0.875,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "55273",
+     "70180",
+     "25409",
+     "15716",
+     "48320",
+     "21267"
+    ],
+    "right": [
+     "18249",
+     "13587",
+     "21742",
+     "20052",
+     "27460",
+     "27649"
+    ],
+    "gate": [
+     "54149",
+     "88676",
+     "98764",
+     "97844"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.257,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 0,
+   "aversive_spikes": 10,
+   "KC_spikes": 12,
+   "total_spikes": 64484,
+   "spike_sha256": "e665adab855e9ab26cfc57e0c112ff67d48f0b5fc59106bd47ef47e26a735a59",
+   "input_sha256": "65066a93bdbc6fca1392e71c18a98d3ceba254284528668c4a939ad15f5bb6ad",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 33,
+    "mean_efficacy": 1.000475,
+    "minimum_efficacy": 0.993151,
+    "sha256": "dd095a864fbb44470d40e92c80cfda92b211803d580e100e699ff9f41eb4d5a3",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 79,
+  "wall_time": 1766000534.9629996,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64315.42",
+   "ask": "64354.11",
+   "timestamp": 1766000534.9629996,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.48415896",
+  "pnl_delta_usdc": "0.00314071",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.965,
+   "right_hz": 4.047,
+   "difference_hz": 2.082,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "70767",
+     "73274",
+     "70074",
+     "62466",
+     "82507",
+     "66602"
+    ],
+    "right": [
+     "54129",
+     "56727",
+     "96875",
+     "13920",
+     "51955",
+     "12635"
+    ],
+    "gate": [
+     "61661",
+     "36604",
+     "31898",
+     "45572"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.837,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 5,
+   "KC_spikes": 13,
+   "total_spikes": 69143,
+   "spike_sha256": "40e476adcfae78dd0cc77d321b75311b866430aff3d4407c08ff86e4a69443a6",
+   "input_sha256": "5d3e28bbe15260dd22ba6f9ee057806b56f797b99952a13ac483cc0abf91a9bd",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 34,
+    "mean_efficacy": 0.99775,
+    "minimum_efficacy": 0.993971,
+    "sha256": "159b2beb1ef8025556149b303ff16ead6d1bf3a975d1b88ebfece68361b6aafd",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 80,
+  "wall_time": 1766000541.7999995,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64323.17",
+   "ask": "64346.36",
+   "timestamp": 1766000541.7999995,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.43151179",
+  "pnl_delta_usdc": "0.00939788",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 4.189,
+   "right_hz": 6.998,
+   "difference_hz": 2.809,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "64301",
+     "86510",
+     "19752",
+     "14706",
+     "50958",
+     "63781"
+    ],
+    "right": [
+     "89230",
+     "52077",
+     "20420",
+     "96776",
+     "27321",
+     "81995"
+    ],
+    "gate": [
+     "97734",
+     "64626",
+     "47807",
+     "24275"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.2,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 10,
+   "KC_spikes": 16,
+   "total_spikes": 66255,
+   "spike_sha256": "042bf847493c2aa096927a4a72e2b88b317db46d236893650331860ed3f87db2",
+   "input_sha256": "441a47e4dec9bfa2ef9b100b8860107c391da17b844d283df112d86c83f3d4d5",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 34,
+    "mean_efficacy": 1.003557,
+    "minimum_efficacy": 0.975211,
+    "sha256": "1ce0e7e0db9f4498268dc7ddb4e1bfb423d6e00b8cd548e4fcc95f96f4635747",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015160",
+   "quote": "9.75490818",
+   "fee": "0.05852945"
+  }
+ },
+ {
+  "tick": 81,
+  "wall_time": 1766000547.9999995,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.07",
+   "ask": "64347.46",
+   "timestamp": 1766000547.9999995,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.43001113",
+  "pnl_delta_usdc": "-0.00150065",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 1.844,
+   "right_hz": 2.77,
+   "difference_hz": 0.926,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "48154",
+     "71836",
+     "64439",
+     "87797",
+     "50927",
+     "46999"
+    ],
+    "right": [
+     "52818",
+     "50180",
+     "70257",
+     "78547",
+     "78592",
+     "19450"
+    ],
+    "gate": [
+     "36999",
+     "33649",
+     "87753",
+     "85421"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.406,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 6,
+   "aversive_spikes": 11,
+   "KC_spikes": 15,
+   "total_spikes": 69988,
+   "spike_sha256": "febbe506c355cc7f2121d6d9f9e1b103ab20a3a967ab3583bba07afbad301978",
+   "input_sha256": "551cd165b11fcca32b8f7327889b8fcf8cde54670ce26bebc2b3f63d3693b663",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 36,
+    "mean_efficacy": 0.996757,
+    "minimum_efficacy": 0.983379,
+    "sha256": "5bdac84c948b42592d62c5760239b6fa369584b1614b48f849bd01244becd227",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 82,
+  "wall_time": 1766000554.4059994,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64320.26",
+   "ask": "64349.27",
+   "timestamp": 1766000554.4059994,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.42754188",
+  "pnl_delta_usdc": "-0.00246926",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.887,
+   "right_hz": 5.258,
+   "difference_hz": 1.371,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "34682",
+     "71325",
+     "54401",
+     "99643",
+     "32210",
+     "34328"
+    ],
+    "right": [
+     "83024",
+     "77460",
+     "48484",
+     "92005",
+     "20119",
+     "91607"
+    ],
+    "gate": [
+     "20312",
+     "12487",
+     "40496",
+     "18288"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.385,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 9,
+   "KC_spikes": 14,
+   "total_spikes": 60491,
+   "spike_sha256": "5327826f5e3e848df599ef0a5e93fa62e968b7b9eda22a0675178ac3448acf0f",
+   "input_sha256": "ae99dfc1ddbf4b2f3a22cdfe575cbdc3793c66a60ac656467bbe833d15a3a30f",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 36,
+    "mean_efficacy": 0.994706,
+    "minimum_efficacy": 0.980524,
+    "sha256": "4cec329c29dbb75d4d2eab2549ee4b099787226aeec88fb47153b259710d5242",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 83,
+  "wall_time": 1766000560.7909994,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.46",
+   "ask": "64348.07",
+   "timestamp": 1766000560.7909994,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.42917895",
+  "pnl_delta_usdc": "0.00163708",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.32,
+   "right_hz": 7.176,
+   "difference_hz": 4.856,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "28039",
+     "72443",
+     "36402",
+     "69769",
+     "75328",
+     "18808"
+    ],
+    "right": [
+     "88456",
+     "42789",
+     "17297",
+     "72602",
+     "86647",
+     "89810"
+    ],
+    "gate": [
+     "65283",
+     "35673",
+     "94329",
+     "88526"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.554,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 9,
+   "KC_spikes": 16,
+   "total_spikes": 73249,
+   "spike_sha256": "d450ed25fc87a55cecd93418e4c5139e2e02996ce85315912043ead82a5ca808",
+   "input_sha256": "98682ef355e336ad22eaaa4c04a0ff3fbc93ba10580414aa22ea3e4805190dee",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 37,
+    "mean_efficacy": 1.000443,
+    "minimum_efficacy": 0.977731,
+    "sha256": "9914e6d75d73e66127aba76a3368cdcf6f693a7f02c310de19ae8fd5f0e335d1",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 84,
+  "wall_time": 1766000567.3449993,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64314.80",
+   "ask": "64354.73",
+   "timestamp": 1766000567.3449993,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.42009318",
+  "pnl_delta_usdc": "-0.00908577",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.274,
+   "right_hz": 7.121,
+   "difference_hz": 3.847,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "31831",
+     "80724",
+     "93828",
+     "31878",
+     "83784",
+     "80242"
+    ],
+    "right": [
+     "93040",
+     "35010",
+     "16174",
+     "89009",
+     "72613",
+     "81798"
+    ],
+    "gate": [
+     "91639",
+     "42196",
+     "53043",
+     "34796"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.33,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 5,
+   "KC_spikes": 11,
+   "total_spikes": 65692,
+   "spike_sha256": "e6f4564da941229e789ab26d0077d8c5e5d056f5ef375783adeb2d91fe103a53",
+   "input_sha256": "ea2f9fb27bb75a901f9abcf21114e3c0aba252948954700cb0b5bf4d4072ace5",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 39,
+    "mean_efficacy": 0.995046,
+    "minimum_efficacy": 0.994666,
+    "sha256": "3b9714aa7a824b92d3f1bbc7d5e2316d17cebc9362aa0d877cc8161c6d11f3df",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 85,
+  "wall_time": 1766000574.6749992,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.28",
+   "ask": "64350.25",
+   "timestamp": 1766000574.6749992,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.42620493",
+  "pnl_delta_usdc": "0.00611175",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.869,
+   "right_hz": 6.005,
+   "difference_hz": 4.136,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "34505",
+     "36332",
+     "18546",
+     "57716",
+     "97657",
+     "15182"
+    ],
+    "right": [
+     "58689",
+     "67749",
+     "69527",
+     "67273",
+     "64835",
+     "77996"
+    ],
+    "gate": [
+     "41807",
+     "91669",
+     "80003",
+     "95780"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.524,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 5,
+   "KC_spikes": 11,
+   "total_spikes": 59294,
+   "spike_sha256": "d10ee33419dcf1bd865389a40ef1d6db2d1c70e8fa058fe2a3177862669c9260",
+   "input_sha256": "0c33d10e62bfe4f702d1fb806372a04c91fd62580113c6eadfb7d497fa7f4361",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 39,
+    "mean_efficacy": 0.994143,
+    "minimum_efficacy": 0.977821,
+    "sha256": "6dd84c32059e28d94aed57731eba853f3c13bb6b92c58352c61c8becc17bf5a8",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 86,
+  "wall_time": 1766000581.1989992,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.72",
+   "ask": "64346.81",
+   "timestamp": 1766000581.1989992,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.43089788",
+  "pnl_delta_usdc": "0.00469295",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.19,
+   "right_hz": 4.367,
+   "difference_hz": 3.177,
+   "gate_spikes": 2,
+   "cell_ids": {
+    "left": [
+     "52580",
+     "51536",
+     "99541",
+     "92914",
+     "72039",
+     "80632"
+    ],
+    "right": [
+     "37929",
+     "31227",
+     "87226",
+     "45123",
+     "26098",
+     "71566"
+    ],
+    "gate": [
+     "57390",
+     "62485",
+     "56527",
+     "56720"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.241,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 8,
+   "aversive_spikes": 9,
+   "KC_spikes": 13,
+   "total_spikes": 68118,
+   "spike_sha256": "88754bd0809bcfe60f570dc90fad487dfef6c413ef785fb5784777e5e70115d1",
+   "input_sha256": "e9ff8f121d317a30fee4127861db46beb77ccc8a5cc2f47e224420050b10d56f",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 41,
+    "mean_efficacy": 0.995483,
+    "minimum_efficacy": 0.995703,
+    "sha256": "eafce5507ba3b3b9ea5621891dbb62cc73c69eb5464ab6473721c0c803e7365d",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 87,
+  "wall_time": 1766000587.439999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64311.76",
+   "ask": "64357.77",
+   "timestamp": 1766000587.439999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.41594592",
+  "pnl_delta_usdc": "-0.01495196",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.214,
+   "right_hz": 5.673,
+   "difference_hz": 3.459,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "67142",
+     "43093",
+     "83366",
+     "53259",
+     "12343",
+     "84807"
+    ],
+    "right": [
+     "43715",
+     "69051",
+     "62790",
+     "44800",
+     "98287",
+     "40790"
+    ],
+    "gate": [
+     "18084",
+     "18177",
+     "77866",
+     "38990"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.709,
+   "stimulus": "aversive",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 39,
+   "KC_spikes": 13,
+   "total_spikes": 59445,
+   "spike_sha256": "b939ebe6ca233d62df472d0634d4f6b3f7681278dd82e0225e6bffa526a4fc8c",
+   "input_sha256": "840a23de86d04cca0b03374cf9f0a633c130a53585496a28dc2fb63a0de60e0f",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 41,
+    "mean_efficacy": 0.998062,
+    "minimum_efficacy": 0.970433,
+    "sha256": "346bb16f3fbc85ccaa98913506308fbd01814b4a1394fd78ea657e6ea569ae12",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 88,
+  "wall_time": 1766000594.1489992,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64314.04",
+   "ask": "64355.49",
+   "timestamp": 1766000594.1489992,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.41905637",
+  "pnl_delta_usdc": "0.00311044",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.925,
+   "right_hz": 7.703,
+   "difference_hz": 4.778,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "43477",
+     "71060",
+     "25616",
+     "48383",
+     "51094",
+     "48385"
+    ],
+    "right": [
+     "60714",
+     "48648",
+     "28674",
+     "98610",
+     "39473",
+     "18445"
+    ],
+    "gate": [
+     "35545",
+     "64252",
+     "42178",
+     "39503"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.248,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 3,
+   "aversive_spikes": 8,
+   "KC_spikes": 16,
+   "total_spikes": 65221,
+   "spike_sha256": "cf7404cd105890c6fe77d32c1f1b4b24a75138dad29e99056d7b39ac356db270",
+   "input_sha256": "88d4aa9f09a694e80dfe27c370a3e6e989aa0b2c645e9e2e851130a6a5cb325b",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 41,
+    "mean_efficacy": 1.001279,
+    "minimum_efficacy": 0.970827,
+    "sha256": "510dc5ca590acc6d33f1d038df2840399cdea3ce5a8d29f9eabe24a2ca5a1983",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 89,
+  "wall_time": 1766000601.3969991,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64314.89",
+   "ask": "64354.64",
+   "timestamp": 1766000601.3969991,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.42021596",
+  "pnl_delta_usdc": "0.00115960",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.132,
+   "right_hz": 10.132,
+   "difference_hz": 7.0,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "63176",
+     "68462",
+     "30555",
+     "85554",
+     "87620",
+     "45558"
+    ],
+    "right": [
+     "80836",
+     "25687",
+     "53513",
+     "62575",
+     "94302",
+     "99575"
+    ],
+    "gate": [
+     "77434",
+     "31254",
+     "83595",
+     "42590"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.366,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 5,
+   "aversive_spikes": 1,
+   "KC_spikes": 14,
+   "total_spikes": 62312,
+   "spike_sha256": "f04d21d984ae5f5f1ff18205926611e41bf7559040f82db5a533034d78045af7",
+   "input_sha256": "7145527e2a3518fd98fcd4c7de0581888619bbaa7e6966fefa0900428e324f0d",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 43,
+    "mean_efficacy": 0.995145,
+    "minimum_efficacy": 0.97159,
+    "sha256": "55cc22d210922426e11e8237f872de899c29d1a17624245ff74a2e6becd3a3d5",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ },
+ {
+  "tick": 90,
+  "wall_time": 1766000608.762999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.39",
+   "ask": "64350.14",
+   "timestamp": 1766000608.762999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.36316458",
+  "pnl_delta_usdc": "0.00613904",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.06,
+   "right_hz": 9.06,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "82927",
+     "52634",
+     "93742",
+     "76090",
+     "94218",
+     "59166"
+    ],
+    "right": [
+     "50978",
+     "39132",
+     "28183",
+     "67673",
+     "95294",
+     "70008"
+    ],
+    "gate": [
+     "40825",
+     "18937",
+     "63565",
+     "11655"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.254,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 1,
+   "aversive_spikes": 4,
+   "KC_spikes": 12,
+   "total_spikes": 68973,
+   "spike_sha256": "4423a0c4664b98b239ef9217c5300376f1506c988e2f74b67fac3d4ba16ac21e",
+   "input_sha256": "2cb7ac75055ca222dd58b132d6f1cddbd4803df68230b3490450583ec372e415",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 45,
+    "mean_efficacy": 0.999366,
+    "minimum_efficacy": 0.993452,
+    "sha256": "1eb07e5ef0a62a3732752f53c44d76dcf3221637825e2d06c2cdaeea32a9692f",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "mode": "paper",
+   "status": "FILLED",
+   "base": "0.00015159",
+   "quote": "9.75483772",
+   "fee": "0.05852903"
+  }
+ },
+ {
+  "tick": 91,
+  "wall_time": 1766000616.016999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64308.83",
+   "ask": "64360.70",
+   "timestamp": 1766000616.016999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.34715752",
+  "pnl_delta_usdc": "-0.01600706",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.152,
+   "right_hz": 9.152,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "26104",
+     "98258",
+     "57853",
+     "80711",
+     "93708",
+     "71131"
+    ],
+    "right": [
+     "58899",
+     "63426",
+     "67542",
+     "83687",
+     "31592",
+     "20267"
+    ],
+    "gate": [
+     "69147",
+     "61540",
+     "91074",
+     "86874"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.941,
+   "stimulus": "aversive",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 4,
+   "aversive_spikes": 49,
+   "KC_spikes": 13,
+   "total_spikes": 58824,
+   "spike_sha256": "d765de76c4a75c4575e15c1d46d9b75ad5719f0f5a8091bfff06f0028255963a",
+   "input_sha256": "08492bf815bedd22c26bb728d70a20e1bdc6d4de1b69d1ee9e5801e390051503",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 46,
+    "mean_efficacy": 1.000793,
+    "minimum_efficacy": 0.987068,
+    "sha256": "9ba5cb61208eed6c7189f1ecee4e251c957fcc03c74469355f98beeaa38b4a8f",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 92,
+  "wall_time": 1766000622.957999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.90",
+   "ask": "64349.63",
+   "timestamp": 1766000622.957999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.36393765",
+  "pnl_delta_usdc": "0.01678013",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 1.653,
+   "right_hz": 8.653,
+   "difference_hz": 7.0,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "73423",
+     "40138",
+     "75764",
+     "82756",
+     "81383",
+     "72243"
+    ],
+    "right": [
+     "51735",
+     "63955",
+     "12605",
+     "37053",
+     "44958",
+     "81418"
+    ],
+    "gate": [
+     "98749",
+     "60154",
+     "82580",
+     "21773"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 7.45,
+   "stimulus": "reward",
+   "stimulus_ms": 200.0,
+   "reward_spikes": 15,
+   "aversive_spikes": 11,
+   "KC_spikes": 12,
+   "total_spikes": 58580,
+   "spike_sha256": "63bfbc0ba954c62518c8cc9566d7c49eba30b4313c42992067aeb935be8123c1",
+   "input_sha256": "fb917e6ece292a4334831e7d283f6e1855342a789055d7b964ae9d2f20881449",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 46,
+    "mean_efficacy": 1.003661,
+    "minimum_efficacy": 0.983219,
+    "sha256": "4138435fe2c2719f7e07f39e3b27d3aea086c861a158d82be620d3d159a56b61",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 93,
+  "wall_time": 1766000630.407999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64322.72",
+   "ask": "64346.81",
+   "timestamp": 1766000630.407999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.36821226",
+  "pnl_delta_usdc": "0.00427461",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 0.828,
+   "right_hz": 7.828,
+   "difference_hz": 7.0,
+   "gate_spikes": 3,
+   "cell_ids": {
+    "left": [
+     "36758",
+     "95572",
+     "83673",
+     "13825",
+     "54372",
+     "48429"
+    ],
+    "right": [
+     "32401",
+     "73348",
+     "25834",
+     "94840",
+     "97323",
+     "87271"
+    ],
+    "gate": [
+     "60674",
+     "19979",
+     "25882",
+     "21931"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.46,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 9,
+   "KC_spikes": 14,
+   "total_spikes": 66577,
+   "spike_sha256": "197a24ba894d9a1f64c9f4f808e96bef3ea0f51c0c706de3fbf744f15d437c59",
+   "input_sha256": "b4f7d33a7cadeecde758d91204e0b7f13a8d37145725ca3fbbf96a86bbf8f55e",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 46,
+    "mean_efficacy": 0.997214,
+    "minimum_efficacy": 0.980029,
+    "sha256": "d0432f906ccaceabddbea0a30e649d55a43bc01e881254215dcb735444313582",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 94,
+  "wall_time": 1766000636.867999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64321.11",
+   "ask": "64348.42",
+   "timestamp": 1766000636.867999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.36577179",
+  "pnl_delta_usdc": "-0.00244047",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 2.329,
+   "right_hz": 8.447,
+   "difference_hz": 6.118,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "41818",
+     "27043",
+     "90515",
+     "45384",
+     "73805",
+     "16312"
+    ],
+    "right": [
+     "37173",
+     "94869",
+     "35237",
+     "25190",
+     "40439",
+     "94178"
+    ],
+    "gate": [
+     "75906",
+     "17346",
+     "98357",
+     "13568"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.951,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 9,
+   "aversive_spikes": 3,
+   "KC_spikes": 14,
+   "total_spikes": 66039,
+   "spike_sha256": "d1bf021897f96789cf75b395f6e28c732e0feaf1d36c574558ba6c9c5245ee15",
+   "input_sha256": "59c5d570eaba433a404d92d511d5fc4eb3464002326ca8aa1bbeb4118e96fc99",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 47,
+    "mean_efficacy": 0.999304,
+    "minimum_efficacy": 0.973846,
+    "sha256": "f5cddc3ddea99fb801e9d8aa5155ef29aa858f1e9117b6c8789e847097ee2806",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 95,
+  "wall_time": 1766000643.818999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64319.47",
+   "ask": "64350.06",
+   "timestamp": 1766000643.818999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.36328584",
+  "pnl_delta_usdc": "-0.00248594",
+  "neural": {
+   "side": "BUY",
+   "left_hz": 3.395,
+   "right_hz": 8.252,
+   "difference_hz": 4.857,
+   "gate_spikes": 1,
+   "cell_ids": {
+    "left": [
+     "61744",
+     "82503",
+     "71647",
+     "71967",
+     "15062",
+     "79202"
+    ],
+    "right": [
+     "93733",
+     "70770",
+     "23190",
+     "42698",
+     "17426",
+     "25519"
+    ],
+    "gate": [
+     "26153",
+     "71240",
+     "35366",
+     "51007"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.23,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 2,
+   "aversive_spikes": 6,
+   "KC_spikes": 11,
+   "total_spikes": 68802,
+   "spike_sha256": "0b153f62c844cf096dc12b9b7e58ad9b4a83d7b38eab9e329a4f47369fb6130c",
+   "input_sha256": "9837c27a4141b2c32bab60ffed24f374aa6dd1f1b59f80eaf45c24eba162013e",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 49,
+    "mean_efficacy": 0.995922,
+    "minimum_efficacy": 0.984946,
+    "sha256": "bb4e99d6e70f5f51577a321f84f93e031165e4499f3a31157a4396b1945aeb9d",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "VETO",
+   "reason": "Order cooldown"
+  }
+ },
+ {
+  "tick": 96,
+  "wall_time": 1766000650.048999,
+  "product": "BTC-USDC",
+  "mode": "paper",
+  "quote": {
+   "product": "BTC-USDC",
+   "bid": "64313.16",
+   "ask": "64356.37",
+   "timestamp": 1766000650.048999,
+   "base_increment": "1E-8",
+   "quote_increment": "0.01",
+   "price_increment": "0.01",
+   "minimum_quote": "1",
+   "minimum_base": "1E-8"
+  },
+  "equity_usdc": "99.35372102",
+  "pnl_delta_usdc": "-0.00956482",
+  "neural": {
+   "side": "HOLD",
+   "left_hz": 3.548,
+   "right_hz": 7.344,
+   "difference_hz": 3.796,
+   "gate_spikes": 0,
+   "cell_ids": {
+    "left": [
+     "95007",
+     "35827",
+     "77404",
+     "72039",
+     "73558",
+     "40324"
+    ],
+    "right": [
+     "39493",
+     "27323",
+     "47875",
+     "31591",
+     "50079",
+     "20956"
+    ],
+    "gate": [
+     "50165",
+     "30553",
+     "28664",
+     "34053"
+    ]
+   },
+   "brain_ms": 500.0,
+   "compute_seconds": 6.134,
+   "stimulus": "none",
+   "stimulus_ms": 0.0,
+   "reward_spikes": 7,
+   "aversive_spikes": 5,
+   "KC_spikes": 13,
+   "total_spikes": 71923,
+   "spike_sha256": "52770b6ebcb91cbc49dcc2cdc78f0e510b398ef5aef4df1e3996f79aa428c14f",
+   "input_sha256": "5c63cde7379fc1700f0e550ec61a2dd0a23d1059ea22fc8ac001319419e4af3b",
+   "memory": {
+    "plastic_edges": 7835,
+    "changed_edges": 51,
+    "mean_efficacy": 0.997906,
+    "minimum_efficacy": 0.995694,
+    "sha256": "95c6ac357f14da34e769a8d454aa400909ed62dad83d340422eff86cbccd5e34",
+    "model": "stonkfly-dual-compartment-v1"
+   }
+  },
+  "execution": {
+   "status": "HOLD"
+  }
+ }
+]
