@@ -29,3 +29,6 @@ out/
 next-env.d.ts
 *.tsbuildinfo
 web/.env*.local
+
+# console route directory, not a worker run dir
+!web/app/runs/
