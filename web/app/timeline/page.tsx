@@ -25,7 +25,15 @@ export default async function TimelinePage({
         run={data.run}
         title="Timeline"
         subtitle="Scrub any observation: the frame the network saw, the numbers it produced, and the exact outcome of that decision."
-      />
+      >
+        <a
+          href={`/api/export?run=${encodeURIComponent(data.run.name)}`}
+          className="chip cursor-pointer"
+          title="Download all retained observations as CSV (money stays strings)"
+        >
+          CSV export
+        </a>
+      </PageHeader>
 
       {events.length === 0 ? (
         <Panel>

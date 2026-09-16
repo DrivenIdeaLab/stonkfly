@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
 import { Sidebar } from "@/components/Sidebar";
+import { MobileNav } from "@/components/MobileNav";
 import { sourceKind } from "@/lib/source";
 
 import "./globals.css";
@@ -23,7 +24,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen antialiased">
         <div className="relative z-10 flex min-h-screen">
           <Sidebar source={source} synthetic={source === "fixture"} />
-          <main className="min-w-0 flex-1 px-4 py-5 md:px-7 md:py-7">{children}</main>
+          <div className="min-w-0 flex-1">
+            <MobileNav />
+            <main className="px-4 py-5 md:px-7 md:py-7">{children}</main>
+          </div>
         </div>
       </body>
     </html>

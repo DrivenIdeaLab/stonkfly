@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 
 import type { TickEvent } from "@/lib/types";
 import { isFill, isVeto } from "@/lib/derive";
@@ -22,8 +23,31 @@ export function TimelineScrubber({
   initial: number;
 }) {
   const [index, setIndex] = useState(events.length - 1);
+  const trackRef = useRef<HTMLInputElement>(null);
   const event = events[Math.min(index, events.length - 1)];
   const frame = frames[event.tick] ?? null;
+
+  const step = (delta: number) =>
+    setIndex((current) => Math.max(0, Math.min(events.length - 1, current + delta)));
+
+  // Keyboard navigation: arrows step, Shift+arrows jump 10, Home/End jump to
+  // the ends. The range input is focusable, so this also serves keyboard-only
+  // users; no preventDefault for keys we don't own.
+  const onKeyDown = (keyEvent: ReactKeyboardEvent<HTMLInputElement>) => {
+    if (keyEvent.key === "ArrowLeft") {
+      keyEvent.preventDefault();
+      step(keyEvent.shiftKey ? -10 : -1);
+    } else if (keyEvent.key === "ArrowRight") {
+      keyEvent.preventDefault();
+      step(keyEvent.shiftKey ? 10 : 1);
+    } else if (keyEvent.key === "Home") {
+      keyEvent.preventDefault();
+      setIndex(0);
+    } else if (keyEvent.key === "End") {
+      keyEvent.preventDefault();
+      setIndex(events.length - 1);
+    }
+  };
 
   return (
     <div className="space-y-4">
@@ -49,13 +73,15 @@ export function TimelineScrubber({
           selected={index}
         />
         <input
+          ref={trackRef}
           type="range"
           min={0}
           max={events.length - 1}
           value={index}
           onChange={(change) => setIndex(Number(change.target.value))}
+          onKeyDown={onKeyDown}
           className="mt-3 w-full accent-cyan"
-          aria-label="Scrub observations"
+          aria-label="Scrub observations (arrow keys step, Shift+arrows jump 10, Home/End for ends)"
         />
         <div className="mt-1 flex justify-between text-[0.7rem] text-ink-3">
           <span className="num">tick #{events[0].tick}</span>

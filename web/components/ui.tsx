@@ -237,5 +237,6 @@ export const NAV = [
   { href: "/timeline", label: "Timeline", Icon: IconTimeline },
   { href: "/neural", label: "Neural", Icon: IconBrain },
   { href: "/runs", label: "Runs", Icon: IconRuns },
+  { href: "/compare", label: "Compare", Icon: IconTimeline },
   { href: "/integrity", label: "Integrity", Icon: IconShield },
 ];

@@ -7,9 +7,26 @@ import { FlyView } from "@/components/live/FlyView";
 import { DecisionMeter } from "@/components/live/DecisionMeter";
 import { DopaminePulse } from "@/components/live/DopaminePulse";
 import { GuardPanel } from "@/components/live/GuardPanel";
+import { GuardChecks } from "@/components/live/GuardChecks";
 import { EventStream } from "@/components/live/EventStream";
 import { LiveRefresher } from "@/components/live/LiveRefresher";
 import { EquityChart } from "@/components/charts";
+
+async function diskFreeRatio(): Promise<number | undefined> {
+  const base = process.env.STONKFLY_OBSERVER_URL;
+  if (process.env.STONKFLY_SOURCE !== "http" || !base) return undefined;
+  try {
+    const response = await fetch(`${base}/api/storage`, { cache: "no-store" });
+    if (!response.ok) return undefined;
+    const data = (await response.json()) as {
+      totals: { diskFreeBytes: number; diskTotalBytes: number };
+    };
+    if (!data.totals || data.totals.diskTotalBytes <= 0) return undefined;
+    return data.totals.diskFreeBytes / data.totals.diskTotalBytes;
+  } catch {
+    return undefined;
+  }
+}
 
 export const dynamic = "force-dynamic";
 
@@ -92,6 +109,17 @@ export default async function LivePage() {
       <div className="mt-4 grid gap-4 lg:grid-cols-3">
         <DopaminePulse event={last} />
         <GuardPanel events={events} />
+
+        {/* Operator guard checks — display only, no delivery; thresholds match
+            the alert proposal pending Nathan's channel decision */}
+        <GuardChecks
+          lastTickAt={data.run.lastTickAt}
+          halted={data.run.halted}
+          drawdownStop={20}
+          initialCash={data.status?.initial_cash}
+          equity={events.at(-1)?.equity_usdc}
+          diskFreeRatio={await diskFreeRatio()}
+        />
         <Panel
           title="Plasticity"
           meta={<Chip tone={last.neural.memory.changed_edges > 0 ? "violet" : "neutral"}>candidate rule</Chip>}
@@ -163,6 +191,45 @@ export default async function LivePage() {
         <div className="lg:col-span-1">
           <EventStream events={events} limit={14} />
         </div>
+      </div>
+
+      <div className="mt-4">
+        <details className="panel p-4" open={events.length < 3 /* first visit heuristic: show until there is history */}>
+          <summary className="cursor-pointer select-none text-[0.82rem] font-medium text-ink">
+            What am I looking at?
+          </summary>
+          <div className="mt-3 space-y-2 text-[0.78rem] leading-relaxed text-ink-2">
+            <p>
+              <span className="text-cyan">Network input</span> — the exact 320×180 chart image
+              fed to the retina at the newest observation. What the network sees, not a
+              prettified rendering: 3,335 luminance + 811 colour samples per tick.
+            </p>
+            <p>
+              <span className="text-cyan">Decoder meter</span> — mean right-minus-left DNp20
+              firing. Past ±2 Hz with a DNpe017 gate spike the fixed readout proposes BUY or
+              SELL; inside the shaded deadband it holds. This interface is{" "}
+              <em>engineered, not discovered</em>.
+            </p>
+            <p>
+              <span className="text-violet">Reinforcement</span> — equity moves beyond ±$0.01
+              drive 200 ms pulses into PAM11 (reward, violet) or PPL101 (aversive, rose)
+              dopamine cells. This is an engineered training signal, not pleasure or pain:
+              pain receptors are not modeled.
+            </p>
+            <p>
+              <span className="text-amber">Guard</span> — the risk guard can veto a proposal
+              (cooldown, spread, limits, stale quote…). It never substitutes a different
+              order; a refusal ends the tick.
+            </p>
+            <p>
+              <span className="text-emerald">Fills</span> — paper fills at bid/ask +0.6% per
+              side. No live orders exist in this system.{" "}
+              <span className="text-ink-3">
+                No profitable learning has been demonstrated; this is a mechanism check.
+              </span>
+            </p>
+          </div>
+        </details>
       </div>
 
       <div className="mt-4">

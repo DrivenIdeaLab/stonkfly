@@ -1,6 +1,49 @@
 import { listRuns } from "@/lib/source";
 import { PageHeader } from "@/components/PageHeader";
 import { Chip, Panel, Stat } from "@/components/ui";
+import { compactNumber } from "@/lib/format";
+
+type StorageRun = {
+  name: string;
+  eventsBytes: number;
+  eventsAgeDays: number | null;
+  checkpointAgeDays: number | null;
+  ticks: number;
+  spanDays: number | null;
+  growthPerDay: number | null;
+};
+
+type StorageTotals = {
+  runsBytes: number;
+  eventsBytes: number;
+  framesCacheBytes: number;
+  framesCached: number;
+  diskFreeBytes: number;
+  diskTotalBytes: number;
+};
+
+async function fetchStorage(): Promise<{ runs: StorageRun[]; totals: StorageTotals } | null> {
+  const base = process.env.STONKFLY_OBSERVER_URL;
+  if (process.env.STONKFLY_SOURCE !== "http" || !base) return null;
+  try {
+    const response = await fetch(`${base}/api/storage`, { cache: "no-store" });
+    if (!response.ok) return null;
+    return (await response.json()) as { runs: StorageRun[]; totals: StorageTotals };
+  } catch {
+    return null;
+  }
+}
+
+function bytes(value: number): string {
+  const units = ["B", "KB", "MB", "GB", "TB"];
+  let size = value;
+  let unit = 0;
+  while (size >= 1024 && unit < units.length - 1) {
+    size /= 1024;
+    unit += 1;
+  }
+  return `${size.toFixed(unit === 0 ? 0 : 1)} ${units[unit]}`;
+}
 
 /**
  * Run registry: every run directory the source can see, with mode, tick count,
@@ -29,6 +72,7 @@ function modeChip(mode: string) {
 
 export default async function RunsPage() {
   const runs = await listRuns();
+  const storage = await fetchStorage();
 
   const totalTicks = runs.reduce((sum, run) => sum + run.ticks, 0);
   const haltedCount = runs.filter((run) => run.halted).length;
@@ -128,6 +172,69 @@ export default async function RunsPage() {
           </div>
         )}
       </Panel>
+
+      {storage ? (
+        <Panel
+          title="Retention & disk"
+          meta={<span className="text-[0.72rem] text-ink-3">worker outputs grow forever; the disk does not</span>}
+        >
+          <div className="mb-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <Stat label="Run directories" value={bytes(storage.totals.runsBytes)} sub={`events.jsonl ${bytes(storage.totals.eventsBytes)}`} />
+            <Stat
+              label="Frame cache"
+              value={bytes(storage.totals.framesCacheBytes)}
+              sub={`${compactNumber(storage.totals.framesCached)} frames · capped 2,000/run`}
+            />
+            <Stat
+              label="Disk free"
+              value={bytes(storage.totals.diskFreeBytes)}
+              sub={`of ${bytes(storage.totals.diskTotalBytes)}`}
+              tone={storage.totals.diskFreeBytes / storage.totals.diskTotalBytes < 0.15 ? "down" : "default"}
+            />
+            <Stat
+              label="Growth / day"
+              value={
+                storage.runs
+                  .filter((r) => r.growthPerDay !== null)
+                  .reduce((sum, r) => sum + (r.growthPerDay ?? 0), 0) > 0
+                  ? bytes(storage.runs.reduce((sum, r) => sum + (r.growthPerDay ?? 0), 0))
+                  : "—"
+              }
+              sub="events.jsonl across all runs (estimate)"
+            />
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-line text-left text-[0.72rem] text-ink-3">
+                  <th className="py-2 pr-4 font-normal">Run</th>
+                  <th className="py-2 pr-4 font-normal text-right">events.jsonl</th>
+                  <th className="py-2 pr-4 font-normal text-right">Growth/day</th>
+                  <th className="py-2 pr-4 font-normal text-right">Last event age</th>
+                  <th className="py-2 pr-4 font-normal text-right">Newest checkpoint</th>
+                </tr>
+              </thead>
+              <tbody>
+                {storage.runs.map((r) => (
+                  <tr key={r.name} className="border-b border-line/50 last:border-0">
+                    <td className="py-2 pr-4">{r.name}</td>
+                    <td className="num py-2 pr-4 text-right text-ink-2">{bytes(r.eventsBytes)}</td>
+                    <td className="num py-2 pr-4 text-right text-ink-2">
+                      {r.growthPerDay !== null ? bytes(r.growthPerDay) : "—"}
+                    </td>
+                    <td className="num py-2 pr-4 text-right text-ink-2">
+                      {r.eventsAgeDays !== null ? `${r.eventsAgeDays}d` : "—"}
+                    </td>
+                    <td className="num py-2 pr-4 text-right text-ink-2">
+                      {r.checkpointAgeDays !== null ? `${r.checkpointAgeDays}d` : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Panel>
+      ) : null}
 
       <p className="text-[0.72rem] text-ink-3">
         State is derived from run artifacts only (events, status, error.json). A run shows
