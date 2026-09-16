@@ -107,6 +107,7 @@ export interface RunSummary {
   lastTickAt: number | null;
   halted: string | null;
   hasError: boolean;
+  errorAt?: number | null;
   /** True when the data is synthetic or does not come from a live worker. */
   synthetic: boolean;
   path?: string;

@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 
 import type { RunSummary } from "@/lib/types";
 import { ago } from "@/lib/format";
+import { errorState } from "@/lib/derive";
 import { Chip, IconAlert } from "./ui";
 import { Heartbeat } from "./Heartbeat";
 
@@ -29,7 +30,19 @@ export function PageHeader({
               HALTED
             </Chip>
           ) : null}
-          {run.hasError ? <Chip tone="rose">ERROR</Chip> : null}
+          {run.hasError
+            ? errorState(run) === "error"
+              ? (
+                  <Chip tone="rose" title="Error is newer than the newest observation">
+                    ERROR
+                  </Chip>
+                )
+              : (
+                  <Chip tone="amber" title="Recovered: error.json predates the newest observation">
+                    RECOVERED
+                  </Chip>
+                )
+            : null}
         </div>
         <h1 className="text-[1.6rem] leading-tight font-semibold tracking-tight text-ink">{title}</h1>
         {subtitle ? <p className="mt-1 max-w-2xl text-[0.82rem] leading-relaxed text-ink-3">{subtitle}</p> : null}

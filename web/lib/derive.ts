@@ -159,3 +159,23 @@ export function liveness(lastTickAt: number | null): { state: "live" | "stale" |
   // One observation per 60 s minimum, plus generous compute headroom.
   return { state: seconds <= 180 ? "live" : seconds <= 900 ? "stale" : "stopped", seconds };
 }
+
+/**
+ * Error-state triage for a run summary. An error.json that predates the run's
+ * newest observation is evidence of a transient error the worker already
+ * recovered from (systemd restarted it and it resumed ticking) — surfaced as
+ * "recovered", not "error". Unknown errorAt (observer < 1.2.1) is treated as
+ * active so we never hide a real incident behind missing metadata.
+ */
+export function errorState(run: {
+  hasError: boolean;
+  errorAt?: number | null;
+  lastTickAt: number | null;
+}): "none" | "error" | "recovered" {
+  if (!run.hasError) return "none";
+  const errorAt = run.errorAt ?? null;
+  if (errorAt === null) return "error";
+  const lastTickAt = run.lastTickAt ?? null;
+  if (lastTickAt === null) return "error";
+  return errorAt > lastTickAt ? "error" : "recovered";
+}

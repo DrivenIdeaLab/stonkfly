@@ -15,6 +15,7 @@ import {
   attemptsToday,
   secondsSinceLastFill,
   liveness,
+  errorState,
 } from "../lib/derive.ts";
 
 function makeEvent(overrides: Partial<TickEvent> & { tick: number }): TickEvent {
@@ -196,4 +197,26 @@ test("liveness degrades live -> stale -> stopped", () => {
   assert.equal(liveness(now - 900).state, "stale"); // boundary stays stale
   assert.equal(liveness(now - 901).state, "stopped");
   assert.equal(liveness(null).state, "stopped");
+});
+
+test("errorState: no error file means none", () => {
+  assert.equal(errorState({ hasError: false, errorAt: null, lastTickAt: 1000 }), "none");
+  assert.equal(errorState({ hasError: false, lastTickAt: null }), "none");
+});
+
+test("errorState: error newer than last tick is active", () => {
+  assert.equal(errorState({ hasError: true, errorAt: 2000, lastTickAt: 1000 }), "error");
+  // Equal timestamps: the error accompanied the final observation — active.
+  assert.equal(errorState({ hasError: true, errorAt: 1000, lastTickAt: 1000 }), "recovered");
+});
+
+test("errorState: stale error.json older than last tick is recovered", () => {
+  // The exact paper-run case: ReadTimeout on Sep 14, worker resumed, ticking since.
+  assert.equal(errorState({ hasError: true, errorAt: 1000, lastTickAt: 2000 }), "recovered");
+});
+
+test("errorState: unknown errorAt (observer < 1.2.1) never hides an incident", () => {
+  assert.equal(errorState({ hasError: true, errorAt: null, lastTickAt: 2000 }), "error");
+  assert.equal(errorState({ hasError: true, lastTickAt: 2000 }), "error");
+  assert.equal(errorState({ hasError: true, errorAt: 2000, lastTickAt: null }), "error");
 });

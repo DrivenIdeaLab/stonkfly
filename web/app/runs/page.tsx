@@ -2,6 +2,7 @@ import { listRuns } from "@/lib/source";
 import { PageHeader } from "@/components/PageHeader";
 import { Chip, Panel, Stat } from "@/components/ui";
 import { compactNumber } from "@/lib/format";
+import { errorState } from "@/lib/derive";
 
 type StorageRun = {
   name: string;
@@ -76,11 +77,14 @@ export default async function RunsPage() {
 
   const totalTicks = runs.reduce((sum, run) => sum + run.ticks, 0);
   const haltedCount = runs.filter((run) => run.halted).length;
-  const errorCount = runs.filter((run) => run.hasError).length;
+  // An error only counts as active when it is newer than the run's newest
+  // observation; a stale error.json from a recovered worker is not an incident.
+  const errorCount = runs.filter((run) => errorState(run) === "error").length;
+  const recoveredCount = runs.filter((run) => errorState(run) === "recovered").length;
   const activeCount = runs.filter(
     (run) =>
       !run.halted &&
-      !run.hasError &&
+      errorState(run) !== "error" &&
       run.lastTickAt !== null &&
       Date.now() / 1000 - run.lastTickAt < 15 * 60,
   ).length;
@@ -101,7 +105,12 @@ export default async function RunsPage() {
           tone={activeCount > 0 ? "up" : "warn"}
         />
         <Stat label="Halted" value={haltedCount} sub="halt reason set in ledger" tone={haltedCount > 0 ? "down" : "default"} />
-        <Stat label="With errors" value={errorCount} sub="error.json present" tone={errorCount > 0 ? "warn" : "default"} />
+        <Stat
+          label="With errors"
+          value={errorCount}
+          sub={recoveredCount > 0 ? `${recoveredCount} recovered (stale error.json)` : "error newer than last observation"}
+          tone={errorCount > 0 ? "warn" : "default"}
+        />
       </div>
 
       <Panel
@@ -156,8 +165,14 @@ export default async function RunsPage() {
                           <Chip tone="rose" title={run.halted}>
                             HALTED
                           </Chip>
-                        ) : run.hasError ? (
-                          <Chip tone="amber">ERROR</Chip>
+                        ) : errorState(run) === "error" ? (
+                          <Chip tone="rose" title="Error is newer than the newest observation">
+                            ERROR
+                          </Chip>
+                        ) : errorState(run) === "recovered" ? (
+                          <Chip tone="amber" title="Recovered: error.json predates the newest observation">
+                            RECOVERED
+                          </Chip>
                         ) : stale ? (
                           <Chip tone="amber">STALE</Chip>
                         ) : (
@@ -240,6 +255,8 @@ export default async function RunsPage() {
         State is derived from run artifacts only (events, status, error.json). A run shows
         RUNNING when its newest observation is under 15 minutes old and no halt or error is
         recorded — it is a statement about data freshness, not about the worker process.
+        RECOVERED means an error.json exists but predates the newest observation (the worker
+        restarted and resumed after a transient error); the file is kept as run evidence.
       </p>
     </>
   );

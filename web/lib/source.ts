@@ -79,7 +79,7 @@ async function readEvents(file: string, limit = MAX_EVENTS): Promise<TickEvent[]
   return events;
 }
 
-function summarise(name: string, events: TickEvent[], halted: string | null, hasError: boolean, synthetic: boolean, path_?: string): RunSummary {
+function summarise(name: string, events: TickEvent[], halted: string | null, hasError: boolean, synthetic: boolean, path_?: string, errorAt: number | null = null): RunSummary {
   const last = events.at(-1);
   return {
     name,
@@ -88,6 +88,7 @@ function summarise(name: string, events: TickEvent[], halted: string | null, has
     lastTickAt: last?.wall_time ?? null,
     halted,
     hasError,
+    errorAt,
     synthetic,
     path: path_,
   };
@@ -142,10 +143,19 @@ async function loadFile(name: string): Promise<RunData> {
       : null);
   const provenance = await readJsonIfExists<Provenance>(path.join(dir, "provenance.json"));
   const error = await readJsonIfExists<RunError>(path.join(dir, "error.json"));
+  // File-mode parity with observer 1.2.1: errorAt lets the UI distinguish a
+  // stale error.json (worker recovered) from an error newer than the last tick.
+  const errorPath = path.join(dir, "error.json");
+  let errorAt: number | null = null;
+  try {
+    errorAt = (await fs.stat(errorPath)).mtimeMs / 1000;
+  } catch {
+    errorAt = null;
+  }
   const stopped = await exists(path.join(dir, "STOP"));
   const halted = status?.halted ?? (stopped ? "STOP file present" : null);
   return {
-    run: summarise(name, events, halted, error !== null, false, dir),
+    run: summarise(name, events, halted, error !== null, false, dir, errorAt),
     status: status ? { ...status, halted } : null,
     events,
     provenance,
@@ -169,7 +179,11 @@ async function loadHttp(name: string): Promise<RunData> {
   ]);
   const eventsSafe = events ?? [];
   return {
-    run: meta ?? summarise(name, eventsSafe, status?.halted ?? null, error !== null, false),
+    // HTTP mode: the observer (1.2.1+) already reports errorAt in meta; when
+    // meta is unavailable the summary falls back to hasError-only semantics.
+    run: (meta?.errorAt === undefined && meta?.hasError)
+      ? { ...meta, errorAt: null }
+      : meta ?? summarise(name, eventsSafe, status?.halted ?? null, error !== null, false),
     status: status ?? null,
     events: eventsSafe,
     provenance: provenance ?? null,
