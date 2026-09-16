@@ -174,7 +174,10 @@ async function loadHttp(name: string): Promise<RunData> {
     events: eventsSafe,
     provenance: provenance ?? null,
     error: error ?? null,
-    frameUrl: (tick) => `${base}/api/runs/${encodeURIComponent(name)}/frame?tick=${tick}`,
+    // Console-origin proxy to the observer (app/api/frame). Never the
+    // observer's LAN URL: that is mixed content behind the HTTPS front door.
+    frameUrl: (tick) =>
+      `/api/frame?run=${encodeURIComponent(name)}&tick=${tick}`,
   };
 }
 
