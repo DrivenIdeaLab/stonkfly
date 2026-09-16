@@ -174,7 +174,12 @@ export default async function RunsPage() {
                             RECOVERED
                           </Chip>
                         ) : stale ? (
-                          <Chip tone="amber">STALE</Chip>
+                          <Chip
+                            tone="neutral"
+                            title="No new observations for over 15 minutes with no halt or error on record. The run either finished (e.g. a bounded acceptance check) or its worker is not running — the registry cannot tell these apart from artifacts alone."
+                          >
+                            IDLE
+                          </Chip>
                         ) : (
                           <Chip tone="emerald">RUNNING</Chip>
                         )}
@@ -257,6 +262,8 @@ export default async function RunsPage() {
         recorded — it is a statement about data freshness, not about the worker process.
         RECOVERED means an error.json exists but predates the newest observation (the worker
         restarted and resumed after a transient error); the file is kept as run evidence.
+        IDLE means no fresh observations and nothing on record — either a bounded check that
+        finished (check-fixture, check-frozen) or a worker that is not running.
       </p>
     </>
   );
