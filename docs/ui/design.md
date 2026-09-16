@@ -72,8 +72,13 @@ responses are JSON; all endpoints are `GET`; nothing accepts a write.
 | `GET /api/runs/{name}/provenance` | the run's `provenance.json` |
 | `GET /api/runs/{name}/error` | `error.json`, or `404` |
 | `GET /api/runs/{name}/frame?tick=N` | the archived `image/png`, or `404` |
+| `GET /api/storage` | retention readout: per-run `events.jsonl` size/age, checkpoint age, growth-per-day estimate, frame-cache size, disk free |
 | `GET /api/health` | `{ok, version, runsDir, readOnly}` |
 | `WS /ws` | pushes new ticks as they are appended |
+
+As built: observer **v1.2.0** (`/root/stonkfly-ops/stonkfly_observer/`, Python stdlib only,
+deployed to `/opt/stonkfly_observer` on CT106). Every non-GET verb is rejected with `501`;
+`test_observer.sh` proves `runs/` stays byte-identical after a full endpoint sweep.
 
 ## Data contract
 
@@ -220,8 +225,40 @@ recommendation.
 
 ## Status
 
-Built: all five routes, the data layer with three source modes, the fixture generator, decimal-safe
-formatting, the design system, NPM deployment notes.
+Built and deployed (Phases 1–5, 2026-09-17):
 
-Not built (see the continuation prompt): the observer service, WebSocket/SSE live updates, frame
-archiving for historical scrubbing, multi-run comparison, tests, and the two systemd units.
+- All five original routes plus `/compare` (two-run equity overlay with
+  FROZEN CONTROL / LEARNING labelling and an honest divergence caveat).
+- Observer v1.2.0 on CT106: full contract above, byte-offset events tailing,
+  torn-line tolerance, `stonkfly status` subprocess with short cache, path
+  traversal rejection, write-verb rejection, `/api/storage`, RFC 6455 `/ws`
+  broadcaster. Frame archive: newest **2,000 frames per run** in
+  `/var/lib/stonkfly-observer/frames/<run>/`, atomic copy+rename — the only
+  writer outside `runs/`, and it never touches `runs/` itself.
+- Live push: observer WS → console `/api/stream` SSE → browser `EventSource`,
+  with exponential backoff (1–15 s), 90 s stall → 15 s poll fallback, pause
+  control preserved, connection state chip in the header (live / reconnecting
+  / polling / paused).
+- `/runs`: registry + Retention & disk panel (growth/day estimate, checkpoint
+  ages, frame cache, disk free). Live: Guard checks panel (silent > 15 min,
+  halt, disk < 15%, drawdown > 75 % of stop) — **display only**; delivery
+  channel undecided.
+- `/api/export`: observations CSV + single-tick JSON, money as strings.
+- Keyboard scrubbing on `/timeline` (arrows, Shift ×10, Home/End); mobile nav
+  strip below `md`; "What am I looking at?" explainer on Live.
+- Tests: `node --test tests/*.test.ts` (26 tests — format incl. exponent
+  notation, derive incl. veto tallies / drawdown / UTC day bucketing / liveness)
+  plus `bash /root/stonkfly-ops/test_observer.sh` (endpoint sweep + read-only
+  manifest proof). Gate: `npx tsc --noEmit && npm test && npm run build`.
+
+Deployment as built (dev2): worker + observer on CT106 (192.168.0.106),
+console on CT107 (192.168.0.107) behind NPM at `stonkfly.homedev.cc` —
+scheme http → 107:3000, Websockets ON, Cache Assets OFF, Block Common
+Exploits ON, Let's Encrypt cert + Force SSL, basic-auth access list
+(credentials in `/root/stonkfly-ops/.npm-stonkfly-cred`). Datacenter firewall
+restricts 8787 to CT107/CT103 and 3000 to NPM/CT103.
+
+Not built: alert delivery (decision pending — proposed: Hermes cron watchdog,
+alert-on-breach only), a genuine learning-vs-`--frozen` comparison (needs a
+control run started alongside `paper`; the current `check-*` runs are 6-tick
+artefacts), multi-run (>2) comparison, authenticated read API for outside tools.

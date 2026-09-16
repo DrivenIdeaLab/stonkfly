@@ -1,5 +1,5 @@
 import type { Execution, Side, Stimulus, TickEvent } from "./types";
-import { toChartNumber } from "./format";
+import { toChartNumber } from "./format.ts";
 
 export interface Point {
   tick: number;
