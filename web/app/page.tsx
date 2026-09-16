@@ -45,7 +45,7 @@ export default async function LivePage() {
         title="Live"
         subtitle="What the network is being shown, what it proposed, and what the guard allowed. Read-only: the console never writes to a run."
       >
-        <LiveRefresher seconds={15} />
+        <LiveRefresher seconds={15} run={data.run.name} />
       </PageHeader>
 
       {/* KPI strip */}
